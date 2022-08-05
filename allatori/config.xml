@@ -1,0 +1,102 @@
+<config>
+	<jars>
+		<jar in="../build/libs/launcher.jar" out="../launcher.jar"/>
+	</jars>
+
+	<keep-names>
+		<class template="class org.launch.*"/>
+		<class template="class org.launch.download.*"/>
+		<class template="class org.launch.download.os.*"/>
+		<class template="class org.launch.frame.*"/>
+	</keep-names>
+
+	<ignore-classes>
+		<class template="class org.launch.frame.Frame"/>
+
+		<class template="class io.github.lukehutch.fastclasspathscanner.*"/>
+
+			<class template="class ch.qos.logback.core.joran.spi.*"/>
+			<class template="class joptsimple.*"/>
+			
+			<class template="class okhttp3.*"/>
+			<class template="class okio.*"/>
+			<class template="class okhttp3.logging*"/>
+			<class template="class okhttp3.internal.tls.*"/>
+			<class template="class okhttp3.internal.*"/>
+			<class template="class okhttp3.internal.cache.*"/>
+			<class template="class okhttp3.internal.cache2.*"/>
+			<class template="class okhttp3.internal.connection.*"/>
+			<class template="class okhttp3.internal.http.*"/>
+			<class template="class okhttp3.internal.http1.*"/>
+			<class template="class okhttp3.internal.http2.*"/>
+			<class template="class okhttp3.internal.io.*"/>
+			<class template="class okhttp3.internal.platform.*"/>
+			<class template="class okhttp3.internal.publicsuffix.*"/>
+			<class template="class okhttp3.internal.ws.*"/>
+			
+		<class template="class ch.qos.logback.core.*"/>
+		<class template="class ch.qos.logback.classic.*"/>
+		<class template="class ch.qos.logback.classic.util.*"/>
+		<class template="class ch.qos.logback.classic.selector.*"/>
+		<class template="class org.objectweb.*"/>
+		<class template="class org.objectweb.asm.*"/>
+		<class template="class org.pushingpixels.*"/>
+		<class template="class netscape.*"/>
+		<class template="class com.sun.*"/>
+		<class template="class javax.*"/>
+
+		<class template="class org.lwjgl.*"/>
+		<class template="class org.jetbrains.*"/>
+		<class template="class org.intellij.*"/>
+		<class template="class net.java.*"/>
+		<class template="class native.*"/>
+		<class template="class com.sun.*"/>
+		<class template="class natives.*"/>
+		<class template="class natives.natives.*"/>
+		<class template="class kotlin.*"/>
+
+		<class template="class com.google.*"/>
+		<class template="class it.unimi.*"/>
+		<class template="class net.lingala.*"/>
+		<class template="class com.jgoodies.*"/>
+		<class template="class com.miglayout.*"/>
+		<class template="class org.apache.*"/>
+		<class template="class org.aopalliance.intercept.*"/>
+		<class template="class org.aopalliance.aop.*"/>
+	</ignore-classes>
+
+	<property name="log-file" value="renaming-log.xml"/>
+
+	<property name="string-encryption" value="disable"/>
+
+	<property name="control-flow-obfuscation" value="enable"/>
+	<property name="force-default-package" value="enable"/>
+
+	<property name="remove-calls" value="com.package.Logger.debug"/>
+	<property name="remove-calls" value="java.lang.System.out.println"/>
+	<property name="remove-calls" value="java.lang.System.out.print"/>
+	<property name="remove-calls" value="java.lang.System.out.printf"/>
+	<property name="remove-calls" value="java.lang.System.err.println"/>
+	<property name="remove-calls" value="java.lang.System.err.print"/>
+	<property name="remove-calls" value="java.lang.System.err.printf"/>
+
+	<property name="classes-naming" value="iii"/>
+	<property name="fields-naming" value="keywords"/>
+	<property name="methods-naming" value="keywords"/>
+	<property name="local-variables-naming" value="single-name"/>
+
+	<property name="generics" value="keep"/>
+
+	<property name="update-resource-contents" value="disable"/>
+	<property name="update-resource-names" value="disable"/>
+
+	<property name="inner-classes" value="keep"/>
+	<property name="member-reorder" value="disable"/>
+
+	<property name="synthetize-methods" value="all"/>
+	<property name="synthetize-fields" value="all"/>
+
+	<property name="finalize" value="enable"/>
+
+	<property name="remove-toString" value="disable"/>
+</config>

@@ -1,0 +1,2355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v6.1
+   Web: http://www.allatori.com
+
+   Log created: Wed Apr 07 16:27:03 BST 2021
+-->
+
+<allatori>
+ <mapping>
+  <class old="org.checkerframework.checker.nullness.qual.Nullable" new="org.u.e.g.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresNonNull" new="org.u.e.g.u.IIIiIiiIIiii">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.Unsigned" new="org.u.e.c.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.AnnotatedFor" new="org.u.u.i.IIiiiiiiIiIi">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.i18n.qual.LocalizableKey" new="org.u.e.w.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.dataflow.qual.Pure" new="org.u.i.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.EnsuresMinLenIf" new="org.u.c.u.u.IIIiIiiIIiii">
+   <method old="expression()[Ljava/lang/String;" new="int"/>
+   <method old="result()Z" new="int"/>
+   <method old="targetValue()I" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.LockPossiblyHeld" new="org.u.e.s.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Length" new="org.u.e.u.u.iIiIIiiIiIII">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.mPERs" new="org.u.e.u.u.IIIIiiiiIiIi">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.IdentifierOrPrimitiveType" new="org.u.e.e.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.UnknownFormat" new="org.u.e.a.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SameLen" new="org.u.e.b.u.IiiIiiiiIiIi">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresKeyFor" new="org.u.e.g.u.IIIiiiiIiIIi">
+   <method old="map()[Ljava/lang/String;" new="int"/>
+   <method old="value()[Ljava/lang/String;" new="class"/>
+  </class>
+  <class old="org.launch.Binder" new="org.launch.Binder">
+   <method old="configure()V" new="configure"/>
+   <method old="frameProvider()Lorg/launch/frame/Frame;" new="int"/>
+   <method old="settingsProvider()Lorg/launch/Settings;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.SafeType" new="org.u.e.r.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.mm2" new="org.u.e.u.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.interning.qual.Interned" new="org.u.e.d.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LessThan" new="org.u.e.b.u.iiIiIiiiiIii">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.BinaryNameOrPrimitiveType" new="org.u.e.e.u.IiiiiiiiIIii">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Mass" new="org.u.e.u.u.iIiIIiiiiIIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.PolyIndex" new="org.u.e.b.u.IIIiiiiIiIIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.InvisibleQualifier" new="org.u.u.i.IiIiiiiiiiii">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.mPERs2" new="org.u.e.u.u.iiIiIiiiIIII">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.EnsuresQualifier" new="org.u.u.i.iIiiIiiiiiii">
+   <method old="expression()[Ljava/lang/String;" new="int"/>
+   <method old="qualifier()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.PolyFenum" new="org.u.e.v.u.IIIiiiiiIIII">
+  </class>
+  <class old="org.checkerframework.framework.qual.StubFiles" new="org.u.u.i.iIIIiiiiiiiI">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingSplitPaneOrientation" new="org.u.e.v.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.DefaultFor" new="org.u.u.i.IiiIIiiiIiii">
+   <method old="typeKinds()[Lorg/checkerframework/framework/qual/TypeKind;" new="int"/>
+   <method old="types()[Ljava/lang/Class;" new="int"/>
+   <method old="value()[Lorg/checkerframework/framework/qual/TypeUseLocation;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.Opt" new="org.u.e.g.IiIIiiiIiIiI">
+   <method old="filter(Ljava/lang/Object;Ljava/util/function/Predicate;)Ljava/lang/Object;" new="int"/>
+   <method old="get(Ljava/lang/Object;)Ljava/lang/Object;" new="int"/>
+   <method old="ifPresent(Ljava/lang/Object;Ljava/util/function/Consumer;)V" new="int"/>
+   <method old="isPresent(Ljava/lang/Object;)Z" new="int"/>
+   <method old="map(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;" new="int"/>
+   <method old="orElse(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" new="int"/>
+   <method old="orElseGet(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;" new="class"/>
+   <method old="orElseThrow(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.initialization.qual.FBCBottom" new="org.u.e.m.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nChecksFormat" new="org.u.e.q.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresNonNullIf$List" new="org.u.e.g.u.IIIiiiiiIIII">
+   <method old="value()[Lorg/checkerframework/checker/nullness/qual/EnsuresNonNullIf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.FromStubFile" new="org.u.u.i.IiiIIiiiiIII">
+  </class>
+  <class old="org.checkerframework.checker.i18n.qual.UnknownLocalizableKey" new="org.u.e.w.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.QualifierForLiterals" new="org.u.u.i.IIiiiiiIIiiI">
+   <method old="stringPatterns()[Ljava/lang/String;" new="int"/>
+   <method old="value()[Lorg/checkerframework/framework/qual/LiteralKind;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.MethodVal" new="org.u.c.f.u.iIIIiiiiiiiI">
+   <method old="className()[Ljava/lang/String;" new="class"/>
+   <method old="methodName()[Ljava/lang/String;" new="int"/>
+   <method old="params()[I" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.PolySameLen" new="org.u.e.b.u.iiIiIiiIiIII">
+  </class>
+  <class old="org.checkerframework.framework.qual.Covariant" new="org.u.u.i.IiiIIiiIIiIi">
+   <method old="value()[I" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SubstringIndexUnknown" new="org.u.e.b.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.UnknownSignedness" new="org.u.e.c.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.DefaultQualifierInHierarchy" new="org.u.u.i.iIiIIiiiiIIi">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nFormatFor" new="org.u.e.q.u.iIIIiiiiiiiI">
+   <method old="value()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.regex.qual.UnknownRegex" new="org.u.e.f.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.I18nFormatUtil" new="org.u.e.q.iIIiiiiiIiIi">
+   <method old="formatParameterCategories(Ljava/lang/String;)[Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="int"/>
+   <method old="hasFormat(Ljava/lang/String;[Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;)Z" new="int"/>
+   <method old="isFormat(Ljava/lang/String;)Z" new="int"/>
+   <method old="tryFormatSatisfiability(Ljava/lang/String;)V" new="int"/>
+  </class>
+  <class old="org.launch.Launch$1" new="org.launch.Launch$1">
+   <field old="$SwitchMap$org$launch$download$os$OperatingSystem [I" new="byte"/>
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.NewInstance" new="org.u.c.f.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.IntRangeFromGTENegativeOne" new="org.u.c.u.u.IIIiiiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresNonNullIf" new="org.u.e.g.u.IiiIiiiiIiIi">
+   <method old="expression()[Ljava/lang/String;" new="int"/>
+   <method old="result()Z" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.i18n.qual.LocalizableKeyBottom" new="org.u.e.w.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.ClassBound" new="org.u.c.f.u.IIIiIiiIIiii">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.AwtAlphaCompositingRule" new="org.u.e.v.u.IiIiiiiiiiii">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.UnknownMethod" new="org.u.c.f.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf$List" new="org.u.e.b.u.IiiIIiiIIiIi">
+   <method old="value()[Lorg/checkerframework/checker/index/qual/EnsuresLTLengthOfIf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.kg" new="org.u.e.u.u.iiIiIiiIiIII">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SubstringIndexBottom" new="org.u.e.b.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.common.value.qual.IntRangeFromNonNegative" new="org.u.c.u.u.IIiiiiiIIiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.km" new="org.u.e.u.u.IIIiIiiIIiii">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.KeyFor" new="org.u.e.g.u.IIiiiiiIIiiI">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.ClassVal" new="org.u.c.f.u.iIIIIiiIiiIi">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.m2" new="org.u.e.u.u.IIiiiiiIIiiI">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Temperature" new="org.u.e.u.u.iiIiIiiiiIii">
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.LockingFree" new="org.u.e.s.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportOverride" new="org.u.c.i.u.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.SafeEffect" new="org.u.e.r.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.interning.qual.PolyInterned" new="org.u.e.d.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.formatter.FormatUtil$Conversion" new="org.u.e.a.iIIiiiiiIiIi">
+   <method old="category()Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="int"/>
+   <method old="index()I" new="int"/>
+   <field old="cath Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="byte"/>
+   <field old="index I" new="char"/>
+  </class>
+  <class old="org.launch.download.DownloadManager" new="org.launch.download.DownloadManager">
+   <method old="calculatePercentage(DD)D" new="int"/>
+   <method old="download(Ljava/lang/String;Ljava/lang/String;)V" new="int"/>
+   <method old="download(Lorg/launch/download/DownloadType;)V" new="int"/>
+   <method old="getFileSize(Ljava/net/URL;)J" new="class"/>
+   <method old="getLastModified(Ljava/net/URL;)J" new="int"/>
+   <method old="init()V" new="goto"/>
+   <method old="loadAllData()V" new="final"/>
+   <method old="loadSizes()V" new="int"/>
+   <method old="needsUpdate(Lorg/launch/download/DownloadType;)Z" new="int"/>
+   <method old="saveSizes()V" new="class"/>
+   <method old="unZip(Ljava/lang/String;)V" new="int"/>
+   <method old="unzip(Ljava/util/zip/ZipInputStream;Ljava/lang/String;)V" new="int"/>
+   <field old="NEEDS_REDOWNLOAD Z" new="break"/>
+   <field old="currentlyUpdated I" new="byte"/>
+   <field old="frame Lorg/launch/frame/Frame;" new="null"/>
+   <field old="numberOfUpdates I" new="char"/>
+   <field old="settings Lorg/launch/Settings;" new="this"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.UnitsBottom" new="org.u.e.u.u.IiiIIiiiiIII">
+  </class>
+  <class old="org.checkerframework.framework.qual.DefaultQualifier" new="org.u.u.i.iiiiIiiIIiIi">
+   <method old="locations()[Lorg/checkerframework/framework/qual/TypeUseLocation;" new="int"/>
+   <method old="value()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.LiteralKind" new="org.u.u.i.iIIiiiiIIIii">
+   <method old="allLiteralKinds()Ljava/util/List;" new="class"/>
+   <method old="primitiveLiteralKinds()Ljava/util/List;" new="int"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/framework/qual/LiteralKind;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/framework/qual/LiteralKind;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/framework/qual/LiteralKind;" new="byte"/>
+   <field old="ALL Lorg/checkerframework/framework/qual/LiteralKind;" new="break"/>
+   <field old="BOOLEAN Lorg/checkerframework/framework/qual/LiteralKind;" new="if"/>
+   <field old="CHAR Lorg/checkerframework/framework/qual/LiteralKind;" new="this"/>
+   <field old="DOUBLE Lorg/checkerframework/framework/qual/LiteralKind;" new="false"/>
+   <field old="FLOAT Lorg/checkerframework/framework/qual/LiteralKind;" new="case"/>
+   <field old="INT Lorg/checkerframework/framework/qual/LiteralKind;" new="do"/>
+   <field old="LONG Lorg/checkerframework/framework/qual/LiteralKind;" new="short"/>
+   <field old="NULL Lorg/checkerframework/framework/qual/LiteralKind;" new="catch"/>
+   <field old="PRIMITIVE Lorg/checkerframework/framework/qual/LiteralKind;" new="char"/>
+   <field old="STRING Lorg/checkerframework/framework/qual/LiteralKind;" new="null"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.mol" new="org.u.e.u.u.iIIiiiiiIiIi">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.subtyping.qual.Unqualified" new="org.u.c.c.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.i18n.qual.UnknownLocalized" new="org.u.e.w.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.common.aliasing.qual.MaybeAliased" new="org.u.c.n.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.PolymorphicQualifier" new="org.u.u.i.IIIiIiiIIiii">
+   <method old="value()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.AwtFlowLayout" new="org.u.e.v.u.IiIiiiiiiiII">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.SignatureUnknown" new="org.u.e.e.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.FieldDescriptorForPrimitive" new="org.u.e.e.u.iIIIIiiIiiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.EnsuresQualifierIf" new="org.u.u.i.IiiIiiiiiiiI">
+   <method old="expression()[Ljava/lang/String;" new="int"/>
+   <method old="qualifier()Ljava/lang/Class;" new="int"/>
+   <method old="result()Z" new="int"/>
+  </class>
+  <class old="org.launch.Launch" new="org.launch.Launch">
+   <method old="getInjector()Lcom/google/inject/Injector;" new="int"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <method old="start()V" new="int"/>
+   <field old="downloadManager Lorg/launch/download/DownloadManager;" new="char"/>
+   <field old="frame Lorg/launch/frame/Frame;" new="break"/>
+   <field old="injector Lcom/google/inject/Injector;" new="null"/>
+   <field old="settings Lorg/launch/Settings;" new="byte"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresKeyForIf" new="org.u.e.g.u.IiIiiiiiiiII">
+   <method old="expression()[Ljava/lang/String;" new="class"/>
+   <method old="map()[Ljava/lang/String;" new="int"/>
+   <method old="result()Z" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.UnitsRelations" new="org.u.e.u.u.IiIiIiiIiiii">
+   <method old="value()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Substance" new="org.u.e.u.u.IIiiIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.PolyLength" new="org.u.e.b.u.IIIiIiiiIiII">
+  </class>
+  <class old="org.checkerframework.common.value.qual.ArrayLenRange" new="org.u.c.u.u.IIIiiiiIiIIi">
+   <method old="from()I" new="class"/>
+   <method old="to()I" new="int"/>
+  </class>
+  <class old="org.launch.download.DownloadType" new="org.launch.download.DownloadType">
+   <method old="getFileDescription()Ljava/lang/String;" new="int"/>
+   <method old="getFileName()Ljava/lang/String;" new="final"/>
+   <method old="getOperatingSystem()Lorg/launch/download/os/OperatingSystem;" new="int"/>
+   <method old="getPersonalLastModified()J" new="class"/>
+   <method old="getPersonalSize()J" new="goto"/>
+   <method old="getRemoteLastModified()J" new="int"/>
+   <method old="getRemoteSize()J" new="final"/>
+   <method old="getTypeFromFileName(Ljava/lang/String;)Lorg/launch/download/DownloadType;" new="int"/>
+   <method old="getUrl()Ljava/lang/String;" new="class"/>
+   <method old="isRepack()Z" new="int"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/launch/download/DownloadType;" new="valueOf"/>
+   <method old="values()[Lorg/launch/download/DownloadType;" new="values"/>
+   <field old="$VALUES [Lorg/launch/download/DownloadType;" new="byte"/>
+   <field old="LINUX_JAVA Lorg/launch/download/DownloadType;" new="float"/>
+   <field old="MAC_JAVA Lorg/launch/download/DownloadType;" new="int"/>
+   <field old="MAIN_FILE Lorg/launch/download/DownloadType;" new="final"/>
+   <field old="WINDOWS_JAVA Lorg/launch/download/DownloadType;" new="catch"/>
+   <field old="fileDescription Ljava/lang/String;" new="case"/>
+   <field old="fileName Ljava/lang/String;" new="do"/>
+   <field old="operatingSystem Lorg/launch/download/os/OperatingSystem;" new="false"/>
+   <field old="personalLastModified J" new="null"/>
+   <field old="personalSize J" new="if"/>
+   <field old="remoteLastModified J" new="break"/>
+   <field old="remoteSize J" new="this"/>
+   <field old="repack Z" new="char"/>
+   <field old="url Ljava/lang/String;" new="short"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.CFComment" new="org.u.u.i.iIIIiiiIiIII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.ReleasesNoLocks" new="org.u.e.s.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Prefix" new="org.u.e.u.u.IIiiiiiiiIII">
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/checker/units/qual/Prefix;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/checker/units/qual/Prefix;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/checker/units/qual/Prefix;" new="byte"/>
+   <field old="atto Lorg/checkerframework/checker/units/qual/Prefix;" new="null"/>
+   <field old="centi Lorg/checkerframework/checker/units/qual/Prefix;" new="do"/>
+   <field old="deca Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+   <field old="deci Lorg/checkerframework/checker/units/qual/Prefix;" new="catch"/>
+   <field old="exa Lorg/checkerframework/checker/units/qual/Prefix;" new="goto"/>
+   <field old="femto Lorg/checkerframework/checker/units/qual/Prefix;" new="this"/>
+   <field old="giga Lorg/checkerframework/checker/units/qual/Prefix;" new="enum"/>
+   <field old="hecto Lorg/checkerframework/checker/units/qual/Prefix;" new="final"/>
+   <field old="kilo Lorg/checkerframework/checker/units/qual/Prefix;" new="long"/>
+   <field old="mega Lorg/checkerframework/checker/units/qual/Prefix;" new="else"/>
+   <field old="micro Lorg/checkerframework/checker/units/qual/Prefix;" new="case"/>
+   <field old="milli Lorg/checkerframework/checker/units/qual/Prefix;" new="short"/>
+   <field old="nano Lorg/checkerframework/checker/units/qual/Prefix;" new="false"/>
+   <field old="one Lorg/checkerframework/checker/units/qual/Prefix;" new="float"/>
+   <field old="peta Lorg/checkerframework/checker/units/qual/Prefix;" new="const"/>
+   <field old="pico Lorg/checkerframework/checker/units/qual/Prefix;" new="if"/>
+   <field old="tera Lorg/checkerframework/checker/units/qual/Prefix;" new="true"/>
+   <field old="yocto Lorg/checkerframework/checker/units/qual/Prefix;" new="char"/>
+   <field old="yotta Lorg/checkerframework/checker/units/qual/Prefix;" new="super"/>
+   <field old="zepto Lorg/checkerframework/checker/units/qual/Prefix;" new="break"/>
+   <field old="zetta Lorg/checkerframework/checker/units/qual/Prefix;" new="void"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.RequiresQualifier$List" new="org.u.u.i.iiIIiiiiiiiI">
+   <method old="value()[Lorg/checkerframework/framework/qual/RequiresQualifier;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportWrite" new="org.u.c.i.u.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.SignednessBottom" new="org.u.e.c.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.mm" new="org.u.e.u.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.radians" new="org.u.e.u.u.iiiIiiiiIiII">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SameLenUnknown" new="org.u.e.b.u.IIiiiiiIIiiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.QualifierArgument" new="org.u.u.i.IIIiiiiiIIII">
+   <method old="value()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.regex.RegexUtil$CheckedPatternSyntaxException" new="org.u.e.f.IiIIiiiIiIiI">
+   <method old="getDescription()Ljava/lang/String;" new="class"/>
+   <method old="getIndex()I" new="int"/>
+   <method old="getMessage()Ljava/lang/String;" new="getMessage"/>
+   <method old="getPattern()Ljava/lang/String;" new="int"/>
+   <field old="pse Ljava/util/regex/PatternSyntaxException;" new="byte"/>
+   <field old="serialVersionUID J" new="char"/>
+  </class>
+  <class old="org.checkerframework.dataflow.qual.SideEffectFree" new="org.u.i.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.common.value.qual.StaticallyExecutable" new="org.u.c.u.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.formatter.FormatUtil$IllegalFormatConversionCategoryException" new="org.u.e.a.IiIIiiiIiIiI">
+   <method old="getExpected()Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="class"/>
+   <method old="getFound()Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="int"/>
+   <method old="getMessage()Ljava/lang/String;" new="getMessage"/>
+   <field old="expected Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="char"/>
+   <field old="found Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="byte"/>
+   <field old="serialVersionUID J" new="break"/>
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.FormatBottom" new="org.u.e.a.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingTitleJustification" new="org.u.e.v.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.ArrayWithoutPackage" new="org.u.e.e.u.IiIIIiiiiiIi">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.UnknownClass" new="org.u.c.f.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.PolyUnit" new="org.u.e.u.u.iiiIIiiIIIII">
+  </class>
+  <class old="org.checkerframework.common.aliasing.qual.LeakedToResult" new="org.u.c.n.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.UpperBoundBottom" new="org.u.e.b.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.i18n.qual.Localized" new="org.u.e.w.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.tainting.qual.PolyTainted" new="org.u.e.i.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.DoubleVal" new="org.u.c.u.u.iiIiIiiIiIII">
+   <method old="value()[D" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.GuardSatisfied" new="org.u.e.s.u.IIIiiiiiIIII">
+   <method old="value()I" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.PolySigned" new="org.u.e.c.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingTextOrientation" new="org.u.e.v.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.SignatureBottom" new="org.u.e.e.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.IndexOrLow" new="org.u.e.b.u.iIiIIiiiiIIi">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.compilermsgs.qual.UnknownCompilerMessageKey" new="org.u.e.x.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.PolyUIEffect" new="org.u.e.r.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.FenumUnqualified" new="org.u.e.v.u.IiiIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.Invoke" new="org.u.c.f.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.LockHeld" new="org.u.e.s.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.EnsuresLockHeldIf$List" new="org.u.e.s.u.IiiIiiiiIiIi">
+   <method old="value()[Lorg/checkerframework/checker/lock/qual/EnsuresLockHeldIf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.BinaryNameWithoutPackage" new="org.u.e.e.u.IiIiiiiiiiii">
+  </class>
+  <class old="org.checkerframework.common.returnsreceiver.qual.BottomThis" new="org.u.c.e.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.TargetLocations" new="org.u.u.i.iIIiiiiiIiIi">
+   <method old="value()[Lorg/checkerframework/framework/qual/TypeUseLocation;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.EnsuresLockHeld" new="org.u.e.s.u.iiIiIiiIiIII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.ForName" new="org.u.c.f.u.IIIiiiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.regex.qual.Regex" new="org.u.e.f.u.iIIiiiiiIiIi">
+   <method old="value()I" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.ClassGetName" new="org.u.e.e.u.IIIiiiiIiIIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.BoolVal" new="org.u.c.u.u.IIIiIiiiIiII">
+   <method old="value()[Z" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.degrees" new="org.u.e.u.u.IIIiiiiIiIIi">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.PolyKeyFor" new="org.u.e.g.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportCall" new="org.u.c.i.u.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.IntRange" new="org.u.c.u.u.IiiIiiiiIiIi">
+   <method old="from()J" new="class"/>
+   <method old="to()J" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SubstringIndexFor" new="org.u.e.b.u.IiiIIiiiIiiI">
+   <method old="offset()[Ljava/lang/String;" new="int"/>
+   <method old="value()[Ljava/lang/String;" new="class"/>
+  </class>
+  <class old="org.checkerframework.common.value.qual.IntRangeFromPositive" new="org.u.c.u.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.PrimitiveType" new="org.u.e.e.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.framework.util.PurityUnqualified" new="org.u.u.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.launch.download.os.OperatingSystem" new="org.launch.download.os.OperatingSystem">
+   <method old="valueOf(Ljava/lang/String;)Lorg/launch/download/os/OperatingSystem;" new="valueOf"/>
+   <method old="values()[Lorg/launch/download/os/OperatingSystem;" new="values"/>
+   <field old="$VALUES [Lorg/launch/download/os/OperatingSystem;" new="byte"/>
+   <field old="ANY Lorg/launch/download/os/OperatingSystem;" new="this"/>
+   <field old="LINUX Lorg/launch/download/os/OperatingSystem;" new="char"/>
+   <field old="MAC Lorg/launch/download/os/OperatingSystem;" new="break"/>
+   <field old="WINDOWS Lorg/launch/download/os/OperatingSystem;" new="null"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.NegativeIndexFor" new="org.u.e.b.u.IiiiiiiiIIii">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.value.qual.MinLenFieldInvariant" new="org.u.c.u.u.iIIIiiiiiiiI">
+   <method old="field()[Ljava/lang/String;" new="int"/>
+   <method old="minLen()[I" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.value.qual.EnsuresMinLenIf$List" new="org.u.c.u.u.iIIIIiiIiiIi">
+   <method old="value()[Lorg/checkerframework/common/value/qual/EnsuresMinLenIf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.Holding" new="org.u.e.s.u.iiIIiiiiiiiI">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.InvalidFormat" new="org.u.e.a.u.iIIiiiiiIiIi">
+   <method old="value()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.dataflow.qual.Deterministic" new="org.u.i.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.common.aliasing.qual.NonLeaked" new="org.u.c.n.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.TypeKind" new="org.u.u.i.IIiiiiiiiIII">
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/framework/qual/TypeKind;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/framework/qual/TypeKind;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/framework/qual/TypeKind;" new="byte"/>
+   <field old="ARRAY Lorg/checkerframework/framework/qual/TypeKind;" new="catch"/>
+   <field old="BOOLEAN Lorg/checkerframework/framework/qual/TypeKind;" new="super"/>
+   <field old="BYTE Lorg/checkerframework/framework/qual/TypeKind;" new="void"/>
+   <field old="CHAR Lorg/checkerframework/framework/qual/TypeKind;" new="enum"/>
+   <field old="DECLARED Lorg/checkerframework/framework/qual/TypeKind;" new="do"/>
+   <field old="DOUBLE Lorg/checkerframework/framework/qual/TypeKind;" new="long"/>
+   <field old="ERROR Lorg/checkerframework/framework/qual/TypeKind;" new="short"/>
+   <field old="EXECUTABLE Lorg/checkerframework/framework/qual/TypeKind;" new="this"/>
+   <field old="FLOAT Lorg/checkerframework/framework/qual/TypeKind;" new="else"/>
+   <field old="INT Lorg/checkerframework/framework/qual/TypeKind;" new="const"/>
+   <field old="INTERSECTION Lorg/checkerframework/framework/qual/TypeKind;" new="char"/>
+   <field old="LONG Lorg/checkerframework/framework/qual/TypeKind;" new="true"/>
+   <field old="NONE Lorg/checkerframework/framework/qual/TypeKind;" new="int"/>
+   <field old="NULL Lorg/checkerframework/framework/qual/TypeKind;" new="float"/>
+   <field old="OTHER Lorg/checkerframework/framework/qual/TypeKind;" new="null"/>
+   <field old="PACKAGE Lorg/checkerframework/framework/qual/TypeKind;" new="if"/>
+   <field old="SHORT Lorg/checkerframework/framework/qual/TypeKind;" new="goto"/>
+   <field old="TYPEVAR Lorg/checkerframework/framework/qual/TypeKind;" new="case"/>
+   <field old="UNION Lorg/checkerframework/framework/qual/TypeKind;" new="break"/>
+   <field old="VOID Lorg/checkerframework/framework/qual/TypeKind;" new="final"/>
+   <field old="WILDCARD Lorg/checkerframework/framework/qual/TypeKind;" new="false"/>
+  </class>
+  <class old="org.checkerframework.checker.regex.qual.PartialRegex" new="org.u.e.f.u.iIIIiiiiiiiI">
+   <method old="value()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.tainting.qual.Tainted" new="org.u.e.i.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.InheritedAnnotation" new="org.u.u.i.IiiiiiiiIIii">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.A" new="org.u.e.u.u.IiiIIiiIiiii">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signedness.SignednessUtil" new="org.u.e.c.IiIIiiiIiIiI">
+   <method old="byteFromDouble(D)B" new="int"/>
+   <method old="byteFromFloat(F)B" new="int"/>
+   <method old="compareUnsigned(BB)I" new="int"/>
+   <method old="compareUnsigned(SS)I" new="int"/>
+   <method old="getUnsigned(Ljava/nio/ByteBuffer;)B" new="int"/>
+   <method old="getUnsigned(Ljava/nio/ByteBuffer;I)B" new="int"/>
+   <method old="getUnsigned(Ljava/nio/ByteBuffer;[B)V" new="int"/>
+   <method old="getUnsigned(Ljava/nio/ByteBuffer;[BII)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="getUnsigned(Ljava/nio/IntBuffer;I)I" new="int"/>
+   <method old="getUnsignedInt(Ljava/nio/ByteBuffer;)I" new="int"/>
+   <method old="getUnsignedShort(Ljava/nio/ByteBuffer;)S" new="int"/>
+   <method old="intFromDouble(D)I" new="int"/>
+   <method old="intFromFloat(F)I" new="int"/>
+   <method old="longFromDouble(D)J" new="int"/>
+   <method old="longFromFloat(F)J" new="int"/>
+   <method old="putUnsigned(Ljava/nio/ByteBuffer;B)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="putUnsigned(Ljava/nio/ByteBuffer;IB)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="putUnsigned(Ljava/nio/IntBuffer;I)Ljava/nio/IntBuffer;" new="int"/>
+   <method old="putUnsigned(Ljava/nio/IntBuffer;II)Ljava/nio/IntBuffer;" new="int"/>
+   <method old="putUnsigned(Ljava/nio/IntBuffer;[I)Ljava/nio/IntBuffer;" new="int"/>
+   <method old="putUnsigned(Ljava/nio/IntBuffer;[III)Ljava/nio/IntBuffer;" new="int"/>
+   <method old="putUnsignedInt(Ljava/nio/ByteBuffer;I)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="putUnsignedInt(Ljava/nio/ByteBuffer;II)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="putUnsignedLong(Ljava/nio/ByteBuffer;IJ)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="putUnsignedShort(Ljava/nio/ByteBuffer;IS)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="putUnsignedShort(Ljava/nio/ByteBuffer;S)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="readFullyUnsigned(Ljava/io/RandomAccessFile;[B)V" new="int"/>
+   <method old="readUnsigned(Ljava/io/RandomAccessFile;[BII)I" new="int"/>
+   <method old="readUnsignedChar(Ljava/io/RandomAccessFile;)C" new="int"/>
+   <method old="readUnsignedInt(Ljava/io/RandomAccessFile;)I" new="int"/>
+   <method old="readUnsignedLong(Ljava/io/RandomAccessFile;)J" new="int"/>
+   <method old="shortFromDouble(D)S" new="int"/>
+   <method old="shortFromFloat(F)S" new="int"/>
+   <method old="toDouble(B)D" new="int"/>
+   <method old="toDouble(I)D" new="int"/>
+   <method old="toDouble(J)D" new="int"/>
+   <method old="toDouble(S)D" new="int"/>
+   <method old="toFloat(B)F" new="int"/>
+   <method old="toFloat(I)F" new="int"/>
+   <method old="toFloat(J)F" new="int"/>
+   <method old="toFloat(S)F" new="int"/>
+   <method old="toUnsignedBigInteger(J)Ljava/math/BigInteger;" new="int"/>
+   <method old="toUnsignedInt(C)I" new="int"/>
+   <method old="toUnsignedLong(C)J" new="int"/>
+   <method old="toUnsignedShort(B)S" new="int"/>
+   <method old="toUnsignedShort(C)S" new="int"/>
+   <method old="toUnsignedString(B)Ljava/lang/String;" new="int"/>
+   <method old="toUnsignedString(BI)Ljava/lang/String;" new="int"/>
+   <method old="toUnsignedString(S)Ljava/lang/String;" new="int"/>
+   <method old="toUnsignedString(SI)Ljava/lang/String;" new="int"/>
+   <method old="wrapUnsigned([B)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="wrapUnsigned([BII)Ljava/nio/ByteBuffer;" new="int"/>
+   <method old="writeUnsigned(Ljava/io/RandomAccessFile;[BII)V" new="int"/>
+   <method old="writeUnsignedByte(Ljava/io/RandomAccessFile;B)V" new="int"/>
+   <method old="writeUnsignedChar(Ljava/io/RandomAccessFile;C)V" new="int"/>
+   <method old="writeUnsignedInt(Ljava/io/RandomAccessFile;I)V" new="int"/>
+   <method old="writeUnsignedLong(Ljava/io/RandomAccessFile;J)V" new="int"/>
+   <method old="writeUnsignedShort(Ljava/io/RandomAccessFile;S)V" new="int"/>
+   <field old="$assertionsDisabled Z" new="byte"/>
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.I18nFormatUtil$I18nConversion" new="org.u.e.q.iiiIiiiiIiII">
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="category Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="byte"/>
+   <field old="index I" new="char"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.C" new="org.u.e.u.u.IiiIIiiIIiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.RequiresQualifier" new="org.u.u.i.iiIiIiiiIIII">
+   <method old="expression()[Ljava/lang/String;" new="int"/>
+   <method old="qualifier()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.K" new="org.u.e.u.u.iiiiIiiIIiIi">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.UpperBoundUnknown" new="org.u.e.b.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.kmPERh" new="org.u.e.u.u.IiiIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportInherit" new="org.u.c.i.u.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.PolyNull" new="org.u.e.g.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.RelevantJavaTypes" new="org.u.u.i.IIIIiiiiIiIi">
+   <method old="value()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.g" new="org.u.e.u.u.IIIiIiiiIiII">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.h" new="org.u.e.u.u.IiIiiiiiiiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.FromByteCode" new="org.u.u.i.iIIIIiiiIiii">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.m" new="org.u.e.u.u.IIIiiiiiIIII">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.Signed" new="org.u.e.c.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SearchIndexBottom" new="org.u.e.b.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.MonotonicQualifier" new="org.u.u.i.IIIiIiiiIiII">
+   <method old="value()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.s" new="org.u.e.u.u.IiIIiiiIiIiI">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.value.qual.UnknownVal" new="org.u.c.u.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.MethodDescriptor" new="org.u.e.e.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.UnitsMultiple" new="org.u.e.u.u.IiIIIiiiiiIi">
+   <method old="prefix()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+   <method old="quantity()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.km2" new="org.u.e.u.u.iIIIIiiIiiIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.BottomVal" new="org.u.c.u.u.IiIiiiiiiiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.DefaultQualifier$List" new="org.u.u.i.iIiIIiiIiIII">
+   <method old="value()[Lorg/checkerframework/framework/qual/DefaultQualifier;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingElementOrientation" new="org.u.e.v.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.dataflow.qual.TerminatesExecution" new="org.u.i.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LessThanBottom" new="org.u.e.b.u.iIIIIiiiIiii">
+  </class>
+  <class old="org.checkerframework.checker.optional.qual.MaybePresent" new="org.u.e.t.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportUnqualified" new="org.u.c.i.u.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.UIEffect" new="org.u.e.r.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory" new="org.u.e.q.u.IIiiiiiIIiiI">
+   <method old="arrayToSet([Ljava/lang/Object;)Ljava/util/Set;" new="int"/>
+   <method old="intersect(Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;)Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="class"/>
+   <method old="isSubsetOf(Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;)Z" new="int"/>
+   <method old="stringToI18nConversionCategory(Ljava/lang/String;)Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="int"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="union(Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;)Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="int"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="byte"/>
+   <field old="DATE Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="if"/>
+   <field old="GENERAL Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="false"/>
+   <field old="NUMBER Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="this"/>
+   <field old="UNUSED Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="case"/>
+   <field old="namedCategories [Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="char"/>
+   <field old="strings [Ljava/lang/String;" new="break"/>
+   <field old="types [Ljava/lang/Class;" new="null"/>
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.UIPackage" new="org.u.e.r.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.SignednessGlb" new="org.u.e.c.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportCreation" new="org.u.c.i.u.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.NonNull" new="org.u.e.g.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.AssertNonNullIfNonNull" new="org.u.e.g.u.IiIiiiiiiiii">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresKeyFor$List" new="org.u.e.g.u.IIIiIiiiIiII">
+   <method old="value()[Lorg/checkerframework/checker/nullness/qual/EnsuresKeyFor;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.regex.qual.RegexBottom" new="org.u.e.f.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.RequiresNonNull" new="org.u.e.g.u.iiiIiiiiIiII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.FenumBottom" new="org.u.e.v.u.IIIiIiiIIiii">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LTOMLengthOf" new="org.u.e.b.u.IiiIiiiiiiiI">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Luminance" new="org.u.e.u.u.iIIiiiiIiIII">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.GTENegativeOne" new="org.u.e.b.u.IiiIIiiiIiii">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.PolyUIType" new="org.u.e.r.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.framework.qual.IgnoreInWholeProgramInference" new="org.u.u.i.IiIiIiiIiiii">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.UnknownUnits" new="org.u.e.u.u.IiiiiiiiIIii">
+  </class>
+  <class old="org.checkerframework.framework.qual.TypeUseLocation" new="org.u.u.i.IiiIIiiIiiii">
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/framework/qual/TypeUseLocation;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/framework/qual/TypeUseLocation;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/framework/qual/TypeUseLocation;" new="byte"/>
+   <field old="ALL Lorg/checkerframework/framework/qual/TypeUseLocation;" new="char"/>
+   <field old="CONSTRUCTOR_RESULT Lorg/checkerframework/framework/qual/TypeUseLocation;" new="do"/>
+   <field old="EXCEPTION_PARAMETER Lorg/checkerframework/framework/qual/TypeUseLocation;" new="final"/>
+   <field old="EXPLICIT_LOWER_BOUND Lorg/checkerframework/framework/qual/TypeUseLocation;" new="case"/>
+   <field old="EXPLICIT_UPPER_BOUND Lorg/checkerframework/framework/qual/TypeUseLocation;" new="this"/>
+   <field old="FIELD Lorg/checkerframework/framework/qual/TypeUseLocation;" new="enum"/>
+   <field old="IMPLICIT_LOWER_BOUND Lorg/checkerframework/framework/qual/TypeUseLocation;" new="false"/>
+   <field old="IMPLICIT_UPPER_BOUND Lorg/checkerframework/framework/qual/TypeUseLocation;" new="null"/>
+   <field old="LOCAL_VARIABLE Lorg/checkerframework/framework/qual/TypeUseLocation;" new="else"/>
+   <field old="LOWER_BOUND Lorg/checkerframework/framework/qual/TypeUseLocation;" new="short"/>
+   <field old="OTHERWISE Lorg/checkerframework/framework/qual/TypeUseLocation;" new="break"/>
+   <field old="PARAMETER Lorg/checkerframework/framework/qual/TypeUseLocation;" new="float"/>
+   <field old="RECEIVER Lorg/checkerframework/framework/qual/TypeUseLocation;" new="int"/>
+   <field old="RESOURCE_VARIABLE Lorg/checkerframework/framework/qual/TypeUseLocation;" new="long"/>
+   <field old="RETURN Lorg/checkerframework/framework/qual/TypeUseLocation;" new="catch"/>
+   <field old="UPPER_BOUND Lorg/checkerframework/framework/qual/TypeUseLocation;" new="if"/>
+  </class>
+  <class old="org.checkerframework.checker.compilermsgs.qual.CompilerMessageKey" new="org.u.e.x.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.Unused" new="org.u.u.i.iiiIiiiiIiII">
+   <method old="when()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.NonNegative" new="org.u.e.b.u.IiIiiiiiiiii">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.FullyQualifiedName" new="org.u.e.e.u.IIiiiiiIIiiI">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nInvalidFormat" new="org.u.e.q.u.IiiIIiiiIiiI">
+   <method old="value()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.propkey.qual.PropertyKeyBottom" new="org.u.e.n.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.NoQualifierParameter" new="org.u.u.i.iiIiIiiIiIII">
+   <method old="value()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LowerBoundBottom" new="org.u.e.b.u.IiIIIiiiiiIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.HasSubsequence" new="org.u.e.b.u.iiiiIiiIIiIi">
+   <method old="from()Ljava/lang/String;" new="class"/>
+   <method old="subsequence()Ljava/lang/String;" new="final"/>
+   <method old="to()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.EnsuresLockHeldIf" new="org.u.e.s.u.iIIIIiiIiiIi">
+   <method old="expression()[Ljava/lang/String;" new="int"/>
+   <method old="result()Z" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.GuardedBy" new="org.u.e.s.u.IIiiiiiIIiiI">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Current" new="org.u.e.u.u.IiiIIiiiIiii">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf" new="org.u.e.b.u.iiIiiiiiiIii">
+   <method old="expression()[Ljava/lang/String;" new="final"/>
+   <method old="offset()[Ljava/lang/String;" new="int"/>
+   <method old="result()Z" new="int"/>
+   <method old="targetValue()[Ljava/lang/String;" new="class"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LessThanUnknown" new="org.u.e.b.u.IiiIIiiiiIII">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.DotSeparatedIdentifiersOrPrimitiveType" new="org.u.e.e.u.iiIiIiiIiIII">
+  </class>
+  <class old="org.checkerframework.framework.qual.FieldInvariant" new="org.u.u.i.iiIiIiiiiIii">
+   <method old="field()[Ljava/lang/String;" new="int"/>
+   <method old="qualifier()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SearchIndexFor" new="org.u.e.b.u.iiIiIiiiIIII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Area" new="org.u.e.u.u.iiIiiiiiiIii">
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresNonNull$List" new="org.u.e.g.u.iIIIIiiIiiIi">
+   <method old="value()[Lorg/checkerframework/checker/nullness/qual/EnsuresNonNull;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.initialization.qual.Initialized" new="org.u.e.m.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.regex.qual.PolyRegex" new="org.u.e.f.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.AwtColorSpace" new="org.u.e.v.u.IIIiiiiIiIIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LengthOf" new="org.u.e.b.u.IIiiIiiiIiiI">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.EnsuresKeyForIf$List" new="org.u.e.g.u.iiIiIiiIiIII">
+   <method old="value()[Lorg/checkerframework/checker/nullness/qual/EnsuresKeyForIf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signedness.qual.SignedPositive" new="org.u.e.c.u.iIIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.AlwaysSafe" new="org.u.e.r.u.IIIiiiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nFormat" new="org.u.e.q.u.iiIiIiiiIIII">
+   <method old="value()[Lorg/checkerframework/checker/i18nformatter/qual/I18nConversionCategory;" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.DefaultQualifierForUse" new="org.u.u.i.iIIiiiiIiIII">
+   <method old="value()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Time" new="org.u.e.u.u.iIIIIiiiIiii">
+  </class>
+  <class old="org.checkerframework.common.value.qual.MinLen" new="org.u.c.u.u.iiIIiiiiiiiI">
+   <method old="value()I" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.interning.qual.InternMethod" new="org.u.e.d.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.dataflow.qual.Pure$Kind" new="org.u.i.u.iIIIiiiiiiiI">
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/dataflow/qual/Pure$Kind;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/dataflow/qual/Pure$Kind;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/dataflow/qual/Pure$Kind;" new="byte"/>
+   <field old="DETERMINISTIC Lorg/checkerframework/dataflow/qual/Pure$Kind;" new="char"/>
+   <field old="SIDE_EFFECT_FREE Lorg/checkerframework/dataflow/qual/Pure$Kind;" new="break"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.PolySignature" new="org.u.e.e.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.BinaryName" new="org.u.e.e.u.IiIiIiiIiiii">
+  </class>
+  <class old="org.checkerframework.framework.qual.SubtypeOf" new="org.u.u.i.IiiIIiiiIiiI">
+   <method old="value()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.IndexFor" new="org.u.e.b.u.iIiIIiiIiIII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.GuardedByUnknown" new="org.u.e.s.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.I18nFormatUtil$MessageFormatParser" new="org.u.e.q.IiIIiiiIiIiI">
+   <method old="applyPattern(Ljava/lang/String;)V" new="int"/>
+   <method old="findKeyword(Ljava/lang/String;[Ljava/lang/String;)I" new="int"/>
+   <method old="makeFormat(I[Ljava/lang/StringBuilder;)V" new="int"/>
+   <method old="parse(Ljava/lang/String;)[Lorg/checkerframework/checker/i18nformatter/I18nFormatUtil$I18nConversion;" new="int"/>
+   <field old="DATE_TIME_MODIFIER_KEYWORDS [Ljava/lang/String;" new="byte"/>
+   <field old="MODIFIER_CURRENCY I" new="this"/>
+   <field old="MODIFIER_DEFAULT I" new="if"/>
+   <field old="MODIFIER_INTEGER I" new="break"/>
+   <field old="MODIFIER_PERCENT I" new="null"/>
+   <field old="NUMBER_MODIFIER_KEYWORDS [Ljava/lang/String;" new="char"/>
+   <field old="SEG_INDEX I" new="long"/>
+   <field old="SEG_MODIFIER I" new="int"/>
+   <field old="SEG_RAW I" new="else"/>
+   <field old="SEG_TYPE I" new="final"/>
+   <field old="TYPE_CHOICE I" new="case"/>
+   <field old="TYPE_DATE I" new="do"/>
+   <field old="TYPE_KEYWORDS [Ljava/lang/String;" new="false"/>
+   <field old="TYPE_NULL I" new="float"/>
+   <field old="TYPE_NUMBER I" new="catch"/>
+   <field old="TYPE_TIME I" new="short"/>
+   <field old="argumentIndices Ljava/util/List;" new="true"/>
+   <field old="categories Ljava/util/List;" new="const"/>
+   <field old="locale Ljava/util/Locale;" new="goto"/>
+   <field old="maxOffset I" new="void"/>
+   <field old="numFormat I" new="enum"/>
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.EnsuresLockHeld$List" new="org.u.e.s.u.IIIiIiiIIiii">
+   <method old="value()[Lorg/checkerframework/checker/lock/qual/EnsuresLockHeld;" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.EnsuresQualifier$List" new="org.u.u.i.iiiIIiiIIIII">
+   <method old="value()[Lorg/checkerframework/framework/qual/EnsuresQualifier;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.FieldDescriptorWithoutPackage" new="org.u.e.e.u.IiiIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.compilermsgs.qual.CompilerMessageKeyBottom" new="org.u.e.x.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.ConversionCategory" new="org.u.e.a.u.iiIiIiiiIIII">
+   <method old="arrayToSet([Ljava/lang/Object;)Ljava/util/Set;" new="int"/>
+   <method old="className(Ljava/lang/Class;)Ljava/lang/String;" new="int"/>
+   <method old="fromConversionChar(C)Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="int"/>
+   <method old="intersect(Lorg/checkerframework/checker/formatter/qual/ConversionCategory;Lorg/checkerframework/checker/formatter/qual/ConversionCategory;)Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="class"/>
+   <method old="isSubsetOf(Lorg/checkerframework/checker/formatter/qual/ConversionCategory;Lorg/checkerframework/checker/formatter/qual/ConversionCategory;)Z" new="int"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="union(Lorg/checkerframework/checker/formatter/qual/ConversionCategory;Lorg/checkerframework/checker/formatter/qual/ConversionCategory;)Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="int"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="valueOf"/>
+   <method old="values()[Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="values"/>
+   <field old="$VALUES [Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="byte"/>
+   <field old="CHAR Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="catch"/>
+   <field old="CHAR_AND_INT Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="false"/>
+   <field old="FLOAT Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="short"/>
+   <field old="GENERAL Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="float"/>
+   <field old="INT Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="do"/>
+   <field old="INT_AND_TIME Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="if"/>
+   <field old="NULL Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="this"/>
+   <field old="TIME Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="case"/>
+   <field old="UNUSED Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="null"/>
+   <field old="chars Ljava/lang/String;" new="char"/>
+   <field old="types [Ljava/lang/Class;" new="break"/>
+  </class>
+  <class old="org.checkerframework.checker.index.qual.EnsuresLTLengthOf" new="org.u.e.b.u.IIiiiiiiIiIi">
+   <method old="offset()[Ljava/lang/String;" new="int"/>
+   <method old="targetValue()[Ljava/lang/String;" new="class"/>
+   <method old="value()[Ljava/lang/String;" new="final"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.UnknownKeyFor" new="org.u.e.g.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.Positive" new="org.u.e.b.u.iIIIIiiIiiIi">
+  </class>
+  <class old="org.checkerframework.framework.qual.PostconditionAnnotation" new="org.u.u.i.iIIIIiiIiiIi">
+   <method old="qualifier()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.subtyping.qual.Bottom" new="org.u.c.c.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingTitlePosition" new="org.u.e.v.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.AwtCursorType" new="org.u.e.v.u.IIIiIiiiIiII">
+  </class>
+  <class old="org.checkerframework.framework.qual.JavaExpression" new="org.u.u.i.IIIiiiiIiIIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.PolyLowerBound" new="org.u.e.b.u.IiIiiiiiiiII">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.UI" new="org.u.e.r.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.HasQualifierParameter" new="org.u.u.i.IiIIIiiiiiIi">
+   <method old="value()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.ClassGetSimpleName" new="org.u.e.e.u.IIIiIiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SearchIndexUnknown" new="org.u.e.b.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.propkey.qual.UnknownPropertyKey" new="org.u.e.n.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.PolyUpperBound" new="org.u.e.b.u.IIIiIiiIIiii">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingCompassDirection" new="org.u.e.v.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.propkey.qual.PropertyKey" new="org.u.e.n.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.value.qual.StringVal" new="org.u.c.u.u.iiiIiiiiIiII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.GetConstructor" new="org.u.c.f.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.MethodValBottom" new="org.u.c.f.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.FormatMethod" new="org.u.e.a.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.optional.qual.PolyPresent" new="org.u.e.t.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.initialization.qual.UnderInitialization" new="org.u.e.m.u.iiiIiiiiIiII">
+   <method old="value()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.aliasing.qual.Unique" new="org.u.c.n.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.UpperBoundFor" new="org.u.u.i.IiIIiiiIiIiI">
+   <method old="typeKinds()[Lorg/checkerframework/framework/qual/TypeKind;" new="int"/>
+   <method old="types()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.ClassValBottom" new="org.u.c.f.u.IiiIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportUse" new="org.u.c.i.u.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.GetClass" new="org.u.c.f.u.IIiiiiiIIiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.UnitsTools" new="org.u.e.u.IiIIiiiIiIiI">
+   <method old="fromCelsiusToKelvin(I)I" new="const"/>
+   <method old="fromGramToKiloGram(I)I" new="catch"/>
+   <method old="fromHourToMinute(I)I" new="int"/>
+   <method old="fromKelvinToCelsius(I)I" new="false"/>
+   <method old="fromKiloGramToGram(I)I" new="enum"/>
+   <method old="fromKiloMeterPerHourToMeterPerSecond(D)D" new="int"/>
+   <method old="fromKiloMeterToMeter(I)I" new="char"/>
+   <method old="fromMeterPerSecondToKiloMeterPerHour(D)D" new="class"/>
+   <method old="fromMeterToKiloMeter(I)I" new="null"/>
+   <method old="fromMeterToMilliMeter(I)I" new="short"/>
+   <method old="fromMilliMeterToMeter(I)I" new="long"/>
+   <method old="fromMinuteToHour(I)I" new="class"/>
+   <method old="fromMinuteToSecond(I)I" new="final"/>
+   <method old="fromSecondToMinute(I)I" new="goto"/>
+   <method old="toDegrees(D)D" new="final"/>
+   <method old="toRadians(D)D" new="goto"/>
+   <field old="A I" new="long"/>
+   <field old="C I" new="null"/>
+   <field old="K I" new="this"/>
+   <field old="cd I" new="final"/>
+   <field old="deg D" new="const"/>
+   <field old="g I" new="do"/>
+   <field old="h I" new="byte"/>
+   <field old="kg I" new="short"/>
+   <field old="km I" new="catch"/>
+   <field old="km2 I" new="else"/>
+   <field old="kmPERh I" new="false"/>
+   <field old="m I" new="float"/>
+   <field old="m2 I" new="enum"/>
+   <field old="mPERs I" new="case"/>
+   <field old="mPERs2 I" new="void"/>
+   <field old="min I" new="char"/>
+   <field old="mm I" new="int"/>
+   <field old="mm2 I" new="true"/>
+   <field old="mol I" new="if"/>
+   <field old="rad D" new="goto"/>
+   <field old="s I" new="break"/>
+  </class>
+  <class old="org.checkerframework.checker.interning.qual.UsesObjectEquals" new="org.u.e.d.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.tainting.qual.Untainted" new="org.u.e.i.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.EnsuresQualifierIf$List" new="org.u.u.i.IIiiIiiiIiiI">
+   <method old="value()[Lorg/checkerframework/framework/qual/EnsuresQualifierIf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.formatter.FormatUtil" new="org.u.e.a.IiiIIiiiIiiI">
+   <method old="asFormat(Ljava/lang/String;[Lorg/checkerframework/checker/formatter/qual/ConversionCategory;)Ljava/lang/String;" new="int"/>
+   <method old="conversionCharFromFormat(Ljava/util/regex/Matcher;)C" new="int"/>
+   <method old="formatParameterCategories(Ljava/lang/String;)[Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="int"/>
+   <method old="indexFromFormat(Ljava/util/regex/Matcher;)I" new="int"/>
+   <method old="parse(Ljava/lang/String;)[Lorg/checkerframework/checker/formatter/FormatUtil$Conversion;" new="int"/>
+   <method old="tryFormatSatisfiability(Ljava/lang/String;)V" new="int"/>
+   <field old="formatSpecifier Ljava/lang/String;" new="char"/>
+   <field old="fsPattern Ljava/util/regex/Pattern;" new="byte"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.DotSeparatedIdentifiers" new="org.u.e.e.u.IiIiiiiiiiII">
+  </class>
+  <class old="org.launch.frame.Frame$1" new="org.launch.frame.Frame$1">
+   <method old="mouseClicked(Ljava/awt/event/MouseEvent;)V" new="mouseClicked"/>
+   <method old="mouseEntered(Ljava/awt/event/MouseEvent;)V" new="mouseEntered"/>
+   <method old="mouseExited(Ljava/awt/event/MouseEvent;)V" new="mouseExited"/>
+   <method old="mousePressed(Ljava/awt/event/MouseEvent;)V" new="mousePressed"/>
+   <method old="mouseReleased(Ljava/awt/event/MouseEvent;)V" new="mouseReleased"/>
+   <field old="this$0 Lorg/launch/frame/Frame;" new="byte"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.MonotonicNonNull" new="org.u.e.g.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nFormatBottom" new="org.u.e.q.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nValidFormat" new="org.u.e.q.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingVerticalOrientation" new="org.u.e.v.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.common.aliasing.qual.MaybeLeaked" new="org.u.c.n.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.EnsuresLTLengthOf$List" new="org.u.e.b.u.iIIIiiiIiIII">
+   <method old="value()[Lorg/checkerframework/checker/index/qual/EnsuresLTLengthOf;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.cd" new="org.u.e.u.u.IiIiiiiiiiii">
+   <method old="value()Lorg/checkerframework/checker/units/qual/Prefix;" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.PreconditionAnnotation" new="org.u.u.i.IiiIiiiiIiIi">
+   <method old="qualifier()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.formatter.FormatUtil$ExcessiveOrMissingFormatArgumentException" new="org.u.e.a.iiiIiiiiIiII">
+   <method old="getExpected()I" new="class"/>
+   <method old="getFound()I" new="int"/>
+   <method old="getMessage()Ljava/lang/String;" new="getMessage"/>
+   <field old="expected I" new="char"/>
+   <field old="found I" new="byte"/>
+   <field old="serialVersionUID J" new="break"/>
+  </class>
+  <class old="org.checkerframework.common.returnsreceiver.qual.This" new="org.u.c.e.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Angle" new="org.u.e.u.u.iIIIiiiIiIII">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.InternalForm" new="org.u.e.e.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.launch.Settings" new="org.launch.Settings">
+   <method old="getGameDirectory()Ljava/lang/String;" new="int"/>
+   <method old="getOperatingSystem()Lorg/launch/download/os/OperatingSystem;" new="int"/>
+   <method old="launchGame(Ljava/lang/String;Ljava/lang/String;)V" new="int"/>
+   <method old="setOperatingSystem()V" new="int"/>
+   <field old="gameDirectory Ljava/lang/String;" new="char"/>
+   <field old="operatingSystem Lorg/launch/download/os/OperatingSystem;" new="byte"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Acceleration" new="org.u.e.u.u.IIiiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingHorizontalOrientation" new="org.u.e.v.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.MixedUnits" new="org.u.e.u.u.iIiiIiiiiiii">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LowerBoundUnknown" new="org.u.e.b.u.IiIiIiiIiiii">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.Fenum" new="org.u.e.v.u.iiIiIiiIiIII">
+   <method old="value()Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.regex.RegexUtil" new="org.u.e.f.iiiIiiiiIiII">
+   <method old="asRegex(Ljava/lang/String;)Ljava/lang/String;" new="int"/>
+   <method old="asRegex(Ljava/lang/String;I)Ljava/lang/String;" new="int"/>
+   <method old="getGroupCount(Ljava/util/regex/Pattern;)I" new="int"/>
+   <method old="isRegex(C)Z" new="int"/>
+   <method old="isRegex(Ljava/lang/String;)Z" new="int"/>
+   <method old="isRegex(Ljava/lang/String;I)Z" new="int"/>
+   <method old="regexError(Ljava/lang/String;)Ljava/lang/String;" new="class"/>
+   <method old="regexError(Ljava/lang/String;I)Ljava/lang/String;" new="class"/>
+   <method old="regexErrorMessage(Ljava/lang/String;II)Ljava/lang/String;" new="int"/>
+   <method old="regexException(Ljava/lang/String;)Ljava/util/regex/PatternSyntaxException;" new="int"/>
+   <method old="regexException(Ljava/lang/String;I)Ljava/util/regex/PatternSyntaxException;" new="int"/>
+  </class>
+  <class old="org.checkerframework.common.value.qual.IntVal" new="org.u.c.u.u.iiIiIiiiIIII">
+   <method old="value()[J" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.Format" new="org.u.e.a.u.iiIIiiiiiiiI">
+   <method old="value()[Lorg/checkerframework/checker/formatter/qual/ConversionCategory;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.interning.qual.InternedDistinct" new="org.u.e.d.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.FqBinaryName" new="org.u.e.e.u.IIIiiiiiIIII">
+  </class>
+  <class old="org.checkerframework.checker.interning.qual.UnknownInterned" new="org.u.e.d.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.MayReleaseLocks" new="org.u.e.s.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.initialization.qual.UnknownInitialization" new="org.u.e.m.u.IiIIiiiIiIiI">
+   <method old="value()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.PolyUI" new="org.u.e.r.u.IIiiiiiIIiiI">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nUnknownFormat" new="org.u.e.q.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.SwingBoxOrientation" new="org.u.e.v.u.IIiiiiiIIiiI">
+  </class>
+  <class old="org.checkerframework.framework.qual.NoDefaultQualifierForUse" new="org.u.u.i.IiIiiiiiiiII">
+   <method old="value()[Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.initialization.qual.NotOnlyInitialized" new="org.u.e.m.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.optional.qual.Present" new="org.u.e.t.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.guieffect.qual.UIType" new="org.u.e.r.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.Identifier" new="org.u.e.e.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.formatter.qual.ReturnsFormat" new="org.u.e.a.u.iiiIiiiiIiII">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LTLengthOf" new="org.u.e.b.u.iiiIIiiIIIII">
+   <method old="offset()[Ljava/lang/String;" new="int"/>
+   <method old="value()[Ljava/lang/String;" new="class"/>
+  </class>
+  <class old="org.checkerframework.common.value.qual.PolyValue" new="org.u.c.u.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.common.util.report.qual.ReportReadWrite" new="org.u.c.i.u.u.IiiIIiiiIiiI">
+  </class>
+  <class old="org.checkerframework.checker.lock.qual.GuardedByBottom" new="org.u.e.s.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.units.qual.min" new="org.u.e.u.u.iiIIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.common.reflection.qual.GetMethod" new="org.u.c.f.u.iiIiIiiiIIII">
+  </class>
+  <class old="org.checkerframework.common.value.qual.ArrayLen" new="org.u.c.u.u.IiIiiiiiiiii">
+   <method old="value()[I" new="int"/>
+  </class>
+  <class old="org.checkerframework.framework.qual.ConditionalPostconditionAnnotation" new="org.u.u.i.iiIiiiiiiIii">
+   <method old="qualifier()Ljava/lang/Class;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.qual.KeyForBottom" new="org.u.e.g.u.IIIIiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.common.returnsreceiver.qual.UnknownThis" new="org.u.c.e.u.IiIIiiiIiIiI">
+  </class>
+  <class old="org.checkerframework.checker.i18nformatter.qual.I18nMakeFormat" new="org.u.e.q.u.iIIiiiiiIiIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.IndexOrHigh" new="org.u.e.b.u.iIIiiiiIiIII">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.units.qual.Speed" new="org.u.e.u.u.IiiIiiiiiiiI">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.LTEqLengthOf" new="org.u.e.b.u.iIiiIiiiiiii">
+   <method old="value()[Ljava/lang/String;" new="int"/>
+  </class>
+  <class old="org.checkerframework.checker.nullness.NullnessUtil" new="org.u.e.g.iiiIiiiiIiII">
+   <method old="castNonNull(Ljava/lang/Object;)Ljava/lang/Object;" new="int"/>
+   <method old="castNonNullArray([Ljava/lang/Object;)[Ljava/lang/Object;" new="int"/>
+   <method old="castNonNullDeep([Ljava/lang/Object;)[Ljava/lang/Object;" new="class"/>
+   <method old="castNonNullDeep([[Ljava/lang/Object;)[[Ljava/lang/Object;" new="int"/>
+   <method old="castNonNullDeep([[[Ljava/lang/Object;)[[[Ljava/lang/Object;" new="int"/>
+   <method old="castNonNullDeep([[[[Ljava/lang/Object;)[[[[Ljava/lang/Object;" new="int"/>
+   <method old="castNonNullDeep([[[[[Ljava/lang/Object;)[[[[[Ljava/lang/Object;" new="int"/>
+   <method old="checkIfArray(Ljava/lang/Object;)V" new="int"/>
+   <field old="$assertionsDisabled Z" new="byte"/>
+  </class>
+  <class old="org.checkerframework.checker.signature.qual.FieldDescriptor" new="org.u.e.e.u.IIIiIiiIIiii">
+  </class>
+  <class old="org.checkerframework.checker.fenum.qual.FenumTop" new="org.u.e.v.u.iIIIIiiIiiIi">
+  </class>
+  <class old="org.checkerframework.checker.index.qual.SameLenBottom" new="org.u.e.b.u.IIIiiiiiIIII">
+  </class>
+  <annotations>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifierIf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.ArrayLen" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.IntRange" oldMethodName="from" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.IndexOrLow" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.QualifierForLiterals" oldMethodName="stringPatterns" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.LTOMLengthOf" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultFor" oldMethodName="types" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf" oldMethodName="result" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf" oldMethodName="targetValue" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.common.reflection.qual.MethodVal" oldMethodName="methodName" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifier" oldMethodName="expression" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf" oldMethodName="expression" newMethodName="final"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.StringVal" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.mPERs" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.UnitsMultiple" oldMethodName="quantity" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.SubstringIndexFor" oldMethodName="offset" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultQualifier" oldMethodName="locations" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.GuardSatisfied" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.UpperBoundFor" oldMethodName="types" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.Unused" oldMethodName="when" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifierIf" oldMethodName="expression" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyForIf" oldMethodName="map" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.regex.qual.Regex" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.Covariant" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.IndexFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.FieldInvariant" oldMethodName="field" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.QualifierArgument" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultQualifier$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.DoubleVal" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.LengthOf" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.LessThan" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.MinLen" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.reflection.qual.ClassBound" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyFor" oldMethodName="map" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.NoDefaultQualifierForUse" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.LTLengthOf" oldMethodName="value" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyForIf" oldMethodName="result" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyFor" oldMethodName="value" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.AnnotatedFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.StubFiles" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.HasSubsequence" oldMethodName="from" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.SearchIndexFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.initialization.qual.UnderInitialization" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyFor$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.MinLenFieldInvariant" oldMethodName="field" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyForIf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.i18nformatter.qual.I18nFormat" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.UpperBoundFor" oldMethodName="typeKinds" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.SameLen" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.formatter.qual.Format" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.radians" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresNonNullIf" oldMethodName="result" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.EnsuresMinLenIf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.SubtypeOf" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOf" oldMethodName="offset" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOf" oldMethodName="targetValue" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.EnsuresLockHeldIf" oldMethodName="result" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.Holding" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.mPERs2" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.PostconditionAnnotation" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifierIf" oldMethodName="result" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.EnsuresLockHeld" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.HasSubsequence" oldMethodName="to" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.HasSubsequence" oldMethodName="subsequence" newMethodName="final"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresKeyForIf" oldMethodName="expression" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.cd" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.reflection.qual.MethodVal" oldMethodName="className" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.RequiresQualifier$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresNonNullIf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.RequiresNonNull" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.g" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.EnsuresMinLenIf" oldMethodName="expression" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultQualifierForUse" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.GuardedBy" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultFor" oldMethodName="typeKinds" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.NegativeIndexFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.MinLenFieldInvariant" oldMethodName="minLen" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.reflection.qual.ClassVal" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.fenum.qual.Fenum" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.EnsuresLockHeld$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.K" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.i18nformatter.qual.I18nFormatFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.ConditionalPostconditionAnnotation" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.CFComment" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.IndexOrHigh" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifier" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresNonNull$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresNonNull" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.RequiresQualifier" oldMethodName="expression" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.QualifierForLiterals" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.EnsuresNonNullIf" oldMethodName="expression" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.m" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.i18nformatter.qual.I18nInvalidFormat" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.s" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.SubstringIndexFor" oldMethodName="value" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.FieldInvariant" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.EnsuresMinLenIf" oldMethodName="targetValue" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.PreconditionAnnotation" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.formatter.qual.InvalidFormat" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.ArrayLenRange" oldMethodName="to" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.EnsuresLockHeldIf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.EnsuresMinLenIf" oldMethodName="result" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.IntVal" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.ArrayLenRange" oldMethodName="from" newMethodName="class"/>
+   <annotation oldClassName="org.checkerframework.checker.initialization.qual.UnknownInitialization" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.BoolVal" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.LTLengthOf" oldMethodName="offset" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOf" oldMethodName="value" newMethodName="final"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.TargetLocations" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.MonotonicQualifier" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.RequiresQualifier" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.NoQualifierParameter" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf" oldMethodName="offset" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.HasQualifierParameter" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.AssertNonNullIfNonNull" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifierIf" oldMethodName="qualifier" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.m2" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.A" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.regex.qual.PartialRegex" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.value.qual.IntRange" oldMethodName="to" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.nullness.qual.KeyFor" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.common.reflection.qual.MethodVal" oldMethodName="params" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.lock.qual.EnsuresLockHeldIf" oldMethodName="expression" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.LTEqLengthOf" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.RelevantJavaTypes" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.UnitsMultiple" oldMethodName="prefix" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.PolymorphicQualifier" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.EnsuresQualifier$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf$List" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.UnitsRelations" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.checker.units.qual.mol" oldMethodName="value" newMethodName="int"/>
+   <annotation oldClassName="org.checkerframework.framework.qual.DefaultQualifier" oldMethodName="value" newMethodName="int"/>
+  </annotations>
+  <sources>
+   <source old="FormatUtil.java" new="tn"/>
+   <source old="ConversionCategory.java" new="ai"/>
+   <source old="I18nFormatUtil.java" new="cn"/>
+   <source old="I18nConversionCategory.java" new="gd"/>
+   <source old="NullnessUtil.java" new="wf"/>
+   <source old="Opt.java" new="vl"/>
+   <source old="RegexUtil.java" new="uj"/>
+   <source old="SignednessUtil.java" new="vj"/>
+   <source old="UnitsTools.java" new="om"/>
+   <source old="Prefix.java" new="xe"/>
+   <source old="LiteralKind.java" new="wl"/>
+   <source old="TypeKind.java" new="cf"/>
+   <source old="TypeUseLocation.java" new="vk"/>
+   <source old="Binder.java" new="tl"/>
+   <source old="Launch.java" new="en"/>
+   <source old="Settings.java" new="gl"/>
+   <source old="DownloadManager.java" new="sk"/>
+   <source old="DownloadType.java" new="rk"/>
+   <source old="OperatingSystem.java" new="zd"/>
+   <source old="Frame.java" new="dd"/>
+   <source old="CompilerMessageKey.java" new="ag"/>
+   <source old="CompilerMessageKeyBottom.java" new="vm"/>
+   <source old="UnknownCompilerMessageKey.java" new="lj"/>
+   <source old="AwtAlphaCompositingRule.java" new="lh"/>
+   <source old="AwtColorSpace.java" new="fn"/>
+   <source old="AwtCursorType.java" new="do"/>
+   <source old="AwtFlowLayout.java" new="rh"/>
+   <source old="Fenum.java" new="tm"/>
+   <source old="FenumBottom.java" new="xg"/>
+   <source old="FenumTop.java" new="hl"/>
+   <source old="FenumUnqualified.java" new="uh"/>
+   <source old="PolyFenum.java" new="yi"/>
+   <source old="SwingBoxOrientation.java" new="fi"/>
+   <source old="SwingCompassDirection.java" new="vn"/>
+   <source old="SwingElementOrientation.java" new="se"/>
+   <source old="SwingHorizontalOrientation.java" new="yh"/>
+   <source old="SwingSplitPaneOrientation.java" new="ce"/>
+   <source old="SwingTextOrientation.java" new="bf"/>
+   <source old="SwingTitleJustification.java" new="ze"/>
+   <source old="SwingTitlePosition.java" new="wj"/>
+   <source old="SwingVerticalOrientation.java" new="sd"/>
+   <source old="Format.java" new="je"/>
+   <source old="FormatBottom.java" new="hd"/>
+   <source old="FormatMethod.java" new="xi"/>
+   <source old="InvalidFormat.java" new="if"/>
+   <source old="ReturnsFormat.java" new="ch"/>
+   <source old="UnknownFormat.java" new="ni"/>
+   <source old="AlwaysSafe.java" new="ml"/>
+   <source old="PolyUI.java" new="eo"/>
+   <source old="PolyUIEffect.java" new="be"/>
+   <source old="PolyUIType.java" new="ed"/>
+   <source old="SafeEffect.java" new="un"/>
+   <source old="SafeType.java" new="qd"/>
+   <source old="UI.java" new="wm"/>
+   <source old="UIEffect.java" new="wh"/>
+   <source old="UIPackage.java" new="tk"/>
+   <source old="UIType.java" new="gn"/>
+   <source old="LocalizableKey.java" new="vi"/>
+   <source old="LocalizableKeyBottom.java" new="dh"/>
+   <source old="Localized.java" new="xm"/>
+   <source old="UnknownLocalizableKey.java" new="nk"/>
+   <source old="UnknownLocalized.java" new="ui"/>
+   <source old="I18nChecksFormat.java" new="bo"/>
+   <source old="I18nFormat.java" new="fh"/>
+   <source old="I18nFormatBottom.java" new="of"/>
+   <source old="I18nFormatFor.java" new="nj"/>
+   <source old="I18nInvalidFormat.java" new="zk"/>
+   <source old="I18nMakeFormat.java" new="lf"/>
+   <source old="I18nUnknownFormat.java" new="fd"/>
+   <source old="I18nValidFormat.java" new="qe"/>
+   <source old="EnsuresLTLengthOf.java" new="il"/>
+   <source old="EnsuresLTLengthOfIf.java" new="pi"/>
+   <source old="GTENegativeOne.java" new="kd"/>
+   <source old="HasSubsequence.java" new="gg"/>
+   <source old="IndexFor.java" new="zf"/>
+   <source old="IndexOrHigh.java" new="cj"/>
+   <source old="IndexOrLow.java" new="eh"/>
+   <source old="LTEqLengthOf.java" new="og"/>
+   <source old="LTLengthOf.java" new="ho"/>
+   <source old="LTOMLengthOf.java" new="zi"/>
+   <source old="LengthOf.java" new="jd"/>
+   <source old="LessThan.java" new="zn"/>
+   <source old="LessThanBottom.java" new="hi"/>
+   <source old="LessThanUnknown.java" new="sg"/>
+   <source old="LowerBoundBottom.java" new="go"/>
+   <source old="LowerBoundUnknown.java" new="mi"/>
+   <source old="NegativeIndexFor.java" new="hg"/>
+   <source old="NonNegative.java" new="sf"/>
+   <source old="PolyIndex.java" new="pj"/>
+   <source old="PolyLength.java" new="dg"/>
+   <source old="PolyLowerBound.java" new="qg"/>
+   <source old="PolySameLen.java" new="wi"/>
+   <source old="PolyUpperBound.java" new="bd"/>
+   <source old="Positive.java" new="kh"/>
+   <source old="SameLen.java" new="ao"/>
+   <source old="SameLenBottom.java" new="nd"/>
+   <source old="SameLenUnknown.java" new="ji"/>
+   <source old="SearchIndexBottom.java" new="di"/>
+   <source old="SearchIndexFor.java" new="vf"/>
+   <source old="SearchIndexUnknown.java" new="ad"/>
+   <source old="SubstringIndexBottom.java" new="sl"/>
+   <source old="SubstringIndexFor.java" new="fj"/>
+   <source old="SubstringIndexUnknown.java" new="tg"/>
+   <source old="UpperBoundBottom.java" new="qh"/>
+   <source old="UpperBoundUnknown.java" new="fl"/>
+   <source old="FBCBottom.java" new="pe"/>
+   <source old="Initialized.java" new="ak"/>
+   <source old="NotOnlyInitialized.java" new="pn"/>
+   <source old="UnderInitialization.java" new="le"/>
+   <source old="UnknownInitialization.java" new="eg"/>
+   <source old="InternMethod.java" new="ik"/>
+   <source old="Interned.java" new="ud"/>
+   <source old="InternedDistinct.java" new="pm"/>
+   <source old="PolyInterned.java" new="qi"/>
+   <source old="UnknownInterned.java" new="gk"/>
+   <source old="UsesObjectEquals.java" new="fo"/>
+   <source old="EnsuresLockHeld.java" new="ul"/>
+   <source old="EnsuresLockHeldIf.java" new="ld"/>
+   <source old="GuardSatisfied.java" new="ge"/>
+   <source old="GuardedBy.java" new="oi"/>
+   <source old="GuardedByBottom.java" new="rg"/>
+   <source old="GuardedByUnknown.java" new="tj"/>
+   <source old="Holding.java" new="ve"/>
+   <source old="LockHeld.java" new="xj"/>
+   <source old="LockPossiblyHeld.java" new="ef"/>
+   <source old="LockingFree.java" new="im"/>
+   <source old="MayReleaseLocks.java" new="ok"/>
+   <source old="ReleasesNoLocks.java" new="vh"/>
+   <source old="AssertNonNullIfNonNull.java" new="gi"/>
+   <source old="EnsuresKeyFor.java" new="lm"/>
+   <source old="EnsuresKeyForIf.java" new="jh"/>
+   <source old="EnsuresNonNull.java" new="el"/>
+   <source old="EnsuresNonNullIf.java" new="cl"/>
+   <source old="KeyFor.java" new="yk"/>
+   <source old="KeyForBottom.java" new="ih"/>
+   <source old="MonotonicNonNull.java" new="wn"/>
+   <source old="NonNull.java" new="gh"/>
+   <source old="Nullable.java" new="pg"/>
+   <source old="PolyKeyFor.java" new="dl"/>
+   <source old="PolyNull.java" new="gm"/>
+   <source old="RequiresNonNull.java" new="qk"/>
+   <source old="UnknownKeyFor.java" new="bh"/>
+   <source old="MaybePresent.java" new="pd"/>
+   <source old="PolyPresent.java" new="aj"/>
+   <source old="Present.java" new="sj"/>
+   <source old="PropertyKey.java" new="id"/>
+   <source old="PropertyKeyBottom.java" new="kf"/>
+   <source old="UnknownPropertyKey.java" new="yf"/>
+   <source old="PartialRegex.java" new="mg"/>
+   <source old="PolyRegex.java" new="bm"/>
+   <source old="Regex.java" new="we"/>
+   <source old="RegexBottom.java" new="hh"/>
+   <source old="UnknownRegex.java" new="nf"/>
+   <source old="ArrayWithoutPackage.java" new="qm"/>
+   <source old="BinaryName.java" new="xf"/>
+   <source old="BinaryNameOrPrimitiveType.java" new="qn"/>
+   <source old="BinaryNameWithoutPackage.java" new="xh"/>
+   <source old="ClassGetName.java" new="zj"/>
+   <source old="ClassGetSimpleName.java" new="mo"/>
+   <source old="DotSeparatedIdentifiers.java" new="oj"/>
+   <source old="DotSeparatedIdentifiersOrPrimitiveType.java" new="um"/>
+   <source old="FieldDescriptor.java" new="jl"/>
+   <source old="FieldDescriptorForPrimitive.java" new="gf"/>
+   <source old="FieldDescriptorWithoutPackage.java" new="ti"/>
+   <source old="FqBinaryName.java" new="ll"/>
+   <source old="FullyQualifiedName.java" new="pf"/>
+   <source old="Identifier.java" new="xn"/>
+   <source old="IdentifierOrPrimitiveType.java" new="ln"/>
+   <source old="InternalForm.java" new="jm"/>
+   <source old="MethodDescriptor.java" new="ci"/>
+   <source old="PolySignature.java" new="kj"/>
+   <source old="PrimitiveType.java" new="pk"/>
+   <source old="SignatureBottom.java" new="ri"/>
+   <source old="SignatureUnknown.java" new="fk"/>
+   <source old="PolySigned.java" new="yd"/>
+   <source old="Signed.java" new="bl"/>
+   <source old="SignedPositive.java" new="hk"/>
+   <source old="SignednessBottom.java" new="fg"/>
+   <source old="SignednessGlb.java" new="am"/>
+   <source old="UnknownSignedness.java" new="bi"/>
+   <source old="Unsigned.java" new="nm"/>
+   <source old="PolyTainted.java" new="oh"/>
+   <source old="Tainted.java" new="ej"/>
+   <source old="Untainted.java" new="cm"/>
+   <source old="A.java" new="rj"/>
+   <source old="Acceleration.java" new="ig"/>
+   <source old="Angle.java" new="wg"/>
+   <source old="Area.java" new="qf"/>
+   <source old="C.java" new="ei"/>
+   <source old="Current.java" new="ym"/>
+   <source old="K.java" new="jn"/>
+   <source old="Length.java" new="rf"/>
+   <source old="Luminance.java" new="io"/>
+   <source old="Mass.java" new="bk"/>
+   <source old="MixedUnits.java" new="he"/>
+   <source old="PolyUnit.java" new="nl"/>
+   <source old="Speed.java" new="gj"/>
+   <source old="Substance.java" new="de"/>
+   <source old="Temperature.java" new="yg"/>
+   <source old="Time.java" new="ng"/>
+   <source old="UnitsBottom.java" new="ie"/>
+   <source old="UnitsMultiple.java" new="xd"/>
+   <source old="UnitsRelations.java" new="uk"/>
+   <source old="UnknownUnits.java" new="dn"/>
+   <source old="cd.java" new="ac"/>
+   <source old="degrees.java" new="vc"/>
+   <source old="g.java" new="kc"/>
+   <source old="h.java" new="qc"/>
+   <source old="kg.java" new="xc"/>
+   <source old="km.java" new="uc"/>
+   <source old="km2.java" new="mc"/>
+   <source old="kmPERh.java" new="zc"/>
+   <source old="m.java" new="pc"/>
+   <source old="m2.java" new="wc"/>
+   <source old="mPERs.java" new="nc"/>
+   <source old="mPERs2.java" new="yc"/>
+   <source old="min.java" new="ic"/>
+   <source old="mm.java" new="lc"/>
+   <source old="mm2.java" new="cc"/>
+   <source old="mol.java" new="fc"/>
+   <source old="radians.java" new="bc"/>
+   <source old="s.java" new="tc"/>
+   <source old="LeakedToResult.java" new="rc"/>
+   <source old="MaybeAliased.java" new="hc"/>
+   <source old="MaybeLeaked.java" new="sc"/>
+   <source old="NonLeaked.java" new="jc"/>
+   <source old="Unique.java" new="dc"/>
+   <source old="ClassBound.java" new="oc"/>
+   <source old="ClassVal.java" new="gc"/>
+   <source old="ClassValBottom.java" new="ec"/>
+   <source old="ForName.java" new="sb"/>
+   <source old="GetClass.java" new="wb"/>
+   <source old="GetConstructor.java" new="gb"/>
+   <source old="GetMethod.java" new="nb"/>
+   <source old="Invoke.java" new="ub"/>
+   <source old="MethodVal.java" new="bb"/>
+   <source old="MethodValBottom.java" new="xb"/>
+   <source old="NewInstance.java" new="hb"/>
+   <source old="UnknownClass.java" new="db"/>
+   <source old="UnknownMethod.java" new="tb"/>
+   <source old="BottomThis.java" new="rb"/>
+   <source old="This.java" new="mb"/>
+   <source old="UnknownThis.java" new="qb"/>
+   <source old="Bottom.java" new="kb"/>
+   <source old="Unqualified.java" new="zb"/>
+   <source old="ReportCall.java" new="fb"/>
+   <source old="ReportCreation.java" new="vb"/>
+   <source old="ReportInherit.java" new="lb"/>
+   <source old="ReportOverride.java" new="jb"/>
+   <source old="ReportReadWrite.java" new="cb"/>
+   <source old="ReportUnqualified.java" new="pb"/>
+   <source old="ReportUse.java" new="ab"/>
+   <source old="ReportWrite.java" new="yb"/>
+   <source old="ArrayLen.java" new="ib"/>
+   <source old="ArrayLenRange.java" new="eb"/>
+   <source old="BoolVal.java" new="ob"/>
+   <source old="BottomVal.java" new="ba"/>
+   <source old="DoubleVal.java" new="ja"/>
+   <source old="EnsuresMinLenIf.java" new="fa"/>
+   <source old="IntRange.java" new="na"/>
+   <source old="IntRangeFromGTENegativeOne.java" new="pa"/>
+   <source old="IntRangeFromNonNegative.java" new="ma"/>
+   <source old="IntRangeFromPositive.java" new="oa"/>
+   <source old="IntVal.java" new="ha"/>
+   <source old="MinLen.java" new="ea"/>
+   <source old="MinLenFieldInvariant.java" new="ta"/>
+   <source old="PolyValue.java" new="za"/>
+   <source old="StaticallyExecutable.java" new="ra"/>
+   <source old="StringVal.java" new="ka"/>
+   <source old="UnknownVal.java" new="la"/>
+   <source old="Deterministic.java" new="va"/>
+   <source old="Pure.java" new="wa"/>
+   <source old="SideEffectFree.java" new="xa"/>
+   <source old="TerminatesExecution.java" new="sa"/>
+   <source old="AnnotatedFor.java" new="ua"/>
+   <source old="CFComment.java" new="da"/>
+   <source old="ConditionalPostconditionAnnotation.java" new="aa"/>
+   <source old="Covariant.java" new="ca"/>
+   <source old="DefaultFor.java" new="ia"/>
+   <source old="DefaultQualifier.java" new="ya"/>
+   <source old="DefaultQualifierForUse.java" new="ga"/>
+   <source old="DefaultQualifierInHierarchy.java" new="qa"/>
+   <source old="EnsuresQualifier.java" new="n"/>
+   <source old="EnsuresQualifierIf.java" new="f"/>
+   <source old="FieldInvariant.java" new="p"/>
+   <source old="FromByteCode.java" new="z"/>
+   <source old="FromStubFile.java" new="v"/>
+   <source old="HasQualifierParameter.java" new="b"/>
+   <source old="IgnoreInWholeProgramInference.java" new="g"/>
+   <source old="InheritedAnnotation.java" new="o"/>
+   <source old="InvisibleQualifier.java" new="c"/>
+   <source old="JavaExpression.java" new="m"/>
+   <source old="MonotonicQualifier.java" new="x"/>
+   <source old="NoDefaultQualifierForUse.java" new="i"/>
+   <source old="NoQualifierParameter.java" new="a"/>
+   <source old="PolymorphicQualifier.java" new="r"/>
+   <source old="PostconditionAnnotation.java" new="w"/>
+   <source old="PreconditionAnnotation.java" new="y"/>
+   <source old="QualifierArgument.java" new="d"/>
+   <source old="QualifierForLiterals.java" new="u"/>
+   <source old="RelevantJavaTypes.java" new="l"/>
+   <source old="RequiresQualifier.java" new="t"/>
+   <source old="StubFiles.java" new="k"/>
+   <source old="SubtypeOf.java" new="s"/>
+   <source old="TargetLocations.java" new="j"/>
+   <source old="Unused.java" new="h"/>
+   <source old="UpperBoundFor.java" new="e"/>
+   <source old="PurityUnqualified.java" new="q"/>
+  </sources>
+  <lines>
+   <line l="145"/>
+   <line l="46"/>
+   <line l="162"/>
+   <line l="156"/>
+   <line l="176"/>
+   <line l="204"/>
+   <line l="58"/>
+   <line l="66"/>
+   <line l="137"/>
+   <line l="76"/>
+   <line l="129"/>
+   <line l="3"/>
+   <line l="166"/>
+   <line l="189"/>
+   <line l="201"/>
+   <line l="109"/>
+   <line l="105"/>
+   <line l="130"/>
+   <line l="124"/>
+   <line l="190"/>
+   <line l="112"/>
+   <line l="202"/>
+   <line l="191"/>
+   <line l="231"/>
+   <line l="128"/>
+   <line l="151"/>
+   <line l="235"/>
+   <line l="21"/>
+   <line l="139"/>
+   <line l="62"/>
+   <line l="67"/>
+   <line l="45"/>
+   <line l="87"/>
+   <line l="25"/>
+   <line l="140"/>
+   <line l="91"/>
+   <line l="97"/>
+   <line l="209"/>
+   <line l="221"/>
+   <line l="116"/>
+   <line l="147"/>
+   <line l="241"/>
+   <line l="199"/>
+   <line l="232"/>
+   <line l="108"/>
+   <line l="248"/>
+   <line l="187"/>
+   <line l="215"/>
+   <line l="123"/>
+   <line l="53"/>
+   <line l="13"/>
+   <line l="79"/>
+   <line l="43"/>
+   <line l="159"/>
+   <line l="65"/>
+   <line l="214"/>
+   <line l="29"/>
+   <line l="0"/>
+   <line l="188"/>
+   <line l="203"/>
+   <line l="63"/>
+   <line l="64"/>
+   <line l="122"/>
+   <line l="19"/>
+   <line l="4"/>
+   <line l="250"/>
+   <line l="5"/>
+   <line l="236"/>
+   <line l="86"/>
+   <line l="164"/>
+   <line l="227"/>
+   <line l="208"/>
+   <line l="11"/>
+   <line l="228"/>
+   <line l="27"/>
+   <line l="197"/>
+   <line l="98"/>
+   <line l="51"/>
+   <line l="150"/>
+   <line l="142"/>
+   <line l="179"/>
+   <line l="110"/>
+   <line l="121"/>
+   <line l="216"/>
+   <line l="182"/>
+   <line l="114"/>
+   <line l="136"/>
+   <line l="251"/>
+   <line l="78"/>
+   <line l="158"/>
+   <line l="117"/>
+   <line l="118"/>
+   <line l="35"/>
+   <line l="85"/>
+   <line l="168"/>
+   <line l="184"/>
+   <line l="200"/>
+   <line l="165"/>
+   <line l="144"/>
+   <line l="152"/>
+   <line l="148"/>
+   <line l="157"/>
+   <line l="249"/>
+   <line l="30"/>
+   <line l="186"/>
+   <line l="207"/>
+   <line l="26"/>
+   <line l="174"/>
+   <line l="15"/>
+   <line l="196"/>
+   <line l="22"/>
+   <line l="80"/>
+   <line l="68"/>
+   <line l="125"/>
+   <line l="41"/>
+   <line l="20"/>
+   <line l="246"/>
+   <line l="173"/>
+   <line l="195"/>
+   <line l="113"/>
+   <line l="127"/>
+   <line l="88"/>
+   <line l="81"/>
+   <line l="237"/>
+   <line l="233"/>
+   <line l="44"/>
+   <line l="138"/>
+   <line l="60"/>
+   <line l="126"/>
+   <line l="212"/>
+   <line l="47"/>
+   <line l="7"/>
+   <line l="119"/>
+   <line l="171"/>
+   <line l="146"/>
+   <line l="131"/>
+   <line l="99"/>
+   <line l="143"/>
+   <line l="102"/>
+   <line l="192"/>
+   <line l="193"/>
+   <line l="75"/>
+   <line l="194"/>
+   <line l="96"/>
+   <line l="134"/>
+   <line l="223"/>
+   <line l="89"/>
+   <line l="101"/>
+   <line l="84"/>
+   <line l="224"/>
+   <line l="229"/>
+   <line l="111"/>
+   <line l="55"/>
+   <line l="18"/>
+   <line l="90"/>
+   <line l="242"/>
+   <line l="183"/>
+   <line l="9"/>
+   <line l="54"/>
+   <line l="225"/>
+   <line l="72"/>
+   <line l="198"/>
+   <line l="245"/>
+   <line l="33"/>
+   <line l="70"/>
+   <line l="61"/>
+   <line l="37"/>
+   <line l="10"/>
+   <line l="244"/>
+   <line l="213"/>
+   <line l="133"/>
+   <line l="50"/>
+   <line l="95"/>
+   <line l="167"/>
+   <line l="77"/>
+   <line l="149"/>
+   <line l="180"/>
+   <line l="170"/>
+   <line l="239"/>
+   <line l="177"/>
+   <line l="32"/>
+   <line l="234"/>
+   <line l="230"/>
+   <line l="247"/>
+   <line l="16"/>
+   <line l="222"/>
+   <line l="59"/>
+   <line l="82"/>
+   <line l="17"/>
+   <line l="31"/>
+   <line l="115"/>
+   <line l="155"/>
+   <line l="238"/>
+   <line l="220"/>
+   <line l="135"/>
+   <line l="24"/>
+   <line l="226"/>
+   <line l="56"/>
+   <line l="57"/>
+   <line l="172"/>
+   <line l="92"/>
+   <line l="34"/>
+   <line l="69"/>
+   <line l="163"/>
+   <line l="23"/>
+   <line l="83"/>
+   <line l="219"/>
+   <line l="106"/>
+   <line l="154"/>
+   <line l="36"/>
+   <line l="1"/>
+   <line l="107"/>
+   <line l="141"/>
+   <line l="120"/>
+   <line l="206"/>
+   <line l="48"/>
+   <line l="12"/>
+   <line l="178"/>
+   <line l="211"/>
+   <line l="52"/>
+   <line l="153"/>
+   <line l="210"/>
+   <line l="39"/>
+   <line l="2"/>
+   <line l="71"/>
+   <line l="42"/>
+   <line l="14"/>
+   <line l="74"/>
+   <line l="243"/>
+   <line l="217"/>
+   <line l="169"/>
+   <line l="73"/>
+   <line l="240"/>
+   <line l="218"/>
+   <line l="103"/>
+   <line l="104"/>
+   <line l="38"/>
+   <line l="100"/>
+   <line l="181"/>
+   <line l="6"/>
+   <line l="132"/>
+   <line l="8"/>
+   <line l="160"/>
+   <line l="161"/>
+   <line l="94"/>
+   <line l="28"/>
+   <line l="205"/>
+   <line l="49"/>
+   <line l="40"/>
+   <line l="93"/>
+   <line l="175"/>
+   <line l="185"/>
+   <line l="401"/>
+   <line l="283"/>
+   <line l="389"/>
+   <line l="379"/>
+   <line l="319"/>
+   <line l="347"/>
+   <line l="253"/>
+   <line l="317"/>
+   <line l="444"/>
+   <line l="371"/>
+   <line l="259"/>
+   <line l="276"/>
+   <line l="369"/>
+   <line l="273"/>
+   <line l="398"/>
+   <line l="357"/>
+   <line l="367"/>
+   <line l="320"/>
+   <line l="337"/>
+   <line l="397"/>
+   <line l="434"/>
+   <line l="333"/>
+   <line l="424"/>
+   <line l="408"/>
+   <line l="261"/>
+   <line l="350"/>
+   <line l="446"/>
+   <line l="271"/>
+   <line l="252"/>
+   <line l="368"/>
+   <line l="302"/>
+   <line l="355"/>
+   <line l="336"/>
+   <line l="403"/>
+   <line l="400"/>
+   <line l="340"/>
+   <line l="299"/>
+   <line l="279"/>
+   <line l="268"/>
+   <line l="258"/>
+   <line l="274"/>
+   <line l="324"/>
+   <line l="395"/>
+   <line l="423"/>
+   <line l="443"/>
+   <line l="310"/>
+   <line l="334"/>
+   <line l="420"/>
+   <line l="467"/>
+   <line l="352"/>
+   <line l="342"/>
+   <line l="263"/>
+   <line l="462"/>
+   <line l="285"/>
+   <line l="296"/>
+   <line l="278"/>
+   <line l="437"/>
+   <line l="327"/>
+   <line l="384"/>
+   <line l="387"/>
+   <line l="332"/>
+   <line l="433"/>
+   <line l="365"/>
+   <line l="316"/>
+   <line l="377"/>
+   <line l="322"/>
+   <line l="348"/>
+   <line l="425"/>
+   <line l="275"/>
+   <line l="306"/>
+   <line l="318"/>
+   <line l="288"/>
+   <line l="313"/>
+   <line l="358"/>
+   <line l="272"/>
+   <line l="366"/>
+   <line l="270"/>
+   <line l="459"/>
+   <line l="269"/>
+   <line l="461"/>
+   <line l="412"/>
+   <line l="469"/>
+   <line l="351"/>
+   <line l="421"/>
+   <line l="390"/>
+   <line l="380"/>
+   <line l="405"/>
+   <line l="335"/>
+   <line l="265"/>
+   <line l="282"/>
+   <line l="432"/>
+   <line l="341"/>
+   <line l="453"/>
+   <line l="463"/>
+   <line l="427"/>
+   <line l="450"/>
+   <line l="438"/>
+   <line l="326"/>
+   <line l="331"/>
+   <line l="266"/>
+   <line l="404"/>
+   <line l="411"/>
+   <line l="415"/>
+   <line l="372"/>
+   <line l="436"/>
+   <line l="414"/>
+   <line l="345"/>
+   <line l="455"/>
+   <line l="307"/>
+   <line l="439"/>
+   <line l="386"/>
+   <line l="451"/>
+   <line l="457"/>
+   <line l="373"/>
+   <line l="431"/>
+   <line l="465"/>
+   <line l="287"/>
+   <line l="295"/>
+   <line l="329"/>
+   <line l="291"/>
+   <line l="267"/>
+   <line l="402"/>
+   <line l="363"/>
+   <line l="428"/>
+   <line l="407"/>
+   <line l="308"/>
+   <line l="254"/>
+   <line l="339"/>
+   <line l="430"/>
+   <line l="442"/>
+   <line l="426"/>
+   <line l="325"/>
+   <line l="344"/>
+   <line l="298"/>
+   <line l="323"/>
+   <line l="445"/>
+   <line l="458"/>
+   <line l="413"/>
+   <line l="385"/>
+   <line l="356"/>
+   <line l="330"/>
+   <line l="349"/>
+   <line l="304"/>
+   <line l="374"/>
+   <line l="376"/>
+   <line l="294"/>
+   <line l="260"/>
+   <line l="429"/>
+   <line l="464"/>
+   <line l="391"/>
+   <line l="370"/>
+   <line l="311"/>
+   <line l="360"/>
+   <line l="466"/>
+   <line l="290"/>
+   <line l="394"/>
+   <line l="375"/>
+   <line l="396"/>
+   <line l="315"/>
+   <line l="435"/>
+   <line l="277"/>
+   <line l="383"/>
+   <line l="292"/>
+   <line l="257"/>
+   <line l="256"/>
+   <line l="468"/>
+   <line l="303"/>
+   <line l="255"/>
+   <line l="359"/>
+   <line l="262"/>
+   <line l="309"/>
+   <line l="417"/>
+   <line l="289"/>
+   <line l="456"/>
+   <line l="378"/>
+   <line l="399"/>
+   <line l="328"/>
+   <line l="338"/>
+   <line l="410"/>
+   <line l="406"/>
+   <line l="305"/>
+   <line l="293"/>
+   <line l="281"/>
+   <line l="354"/>
+   <line l="392"/>
+   <line l="454"/>
+   <line l="409"/>
+   <line l="301"/>
+   <line l="422"/>
+   <line l="388"/>
+   <line l="460"/>
+   <line l="470"/>
+   <line l="418"/>
+   <line l="286"/>
+   <line l="452"/>
+   <line l="264"/>
+   <line l="448"/>
+   <line l="353"/>
+   <line l="382"/>
+   <line l="419"/>
+   <line l="441"/>
+   <line l="280"/>
+   <line l="300"/>
+   <line l="449"/>
+   <line l="314"/>
+   <line l="346"/>
+   <line l="362"/>
+   <line l="393"/>
+   <line l="361"/>
+   <line l="297"/>
+   <line l="312"/>
+   <line l="447"/>
+   <line l="416"/>
+   <line l="284"/>
+   <line l="364"/>
+   <line l="440"/>
+   <line l="321"/>
+   <line l="381"/>
+   <line l="343"/>
+   <line l="495"/>
+   <line l="683"/>
+   <line l="556"/>
+   <line l="580"/>
+   <line l="620"/>
+   <line l="496"/>
+   <line l="646"/>
+   <line l="537"/>
+   <line l="472"/>
+   <line l="657"/>
+   <line l="546"/>
+   <line l="565"/>
+   <line l="571"/>
+   <line l="531"/>
+   <line l="538"/>
+   <line l="497"/>
+   <line l="507"/>
+   <line l="599"/>
+   <line l="475"/>
+   <line l="583"/>
+   <line l="644"/>
+   <line l="658"/>
+   <line l="492"/>
+   <line l="604"/>
+   <line l="672"/>
+   <line l="616"/>
+   <line l="600"/>
+   <line l="700"/>
+   <line l="557"/>
+   <line l="572"/>
+   <line l="602"/>
+   <line l="518"/>
+   <line l="504"/>
+   <line l="574"/>
+   <line l="505"/>
+   <line l="639"/>
+   <line l="621"/>
+   <line l="486"/>
+   <line l="542"/>
+   <line l="708"/>
+   <line l="564"/>
+   <line l="628"/>
+   <line l="478"/>
+   <line l="635"/>
+   <line l="498"/>
+   <line l="623"/>
+   <line l="682"/>
+   <line l="630"/>
+   <line l="596"/>
+   <line l="533"/>
+   <line l="548"/>
+   <line l="650"/>
+   <line l="625"/>
+   <line l="491"/>
+   <line l="699"/>
+   <line l="665"/>
+   <line l="487"/>
+   <line l="619"/>
+   <line l="685"/>
+   <line l="643"/>
+   <line l="482"/>
+   <line l="549"/>
+   <line l="712"/>
+   <line l="567"/>
+   <line l="592"/>
+   <line l="701"/>
+   <line l="675"/>
+   <line l="522"/>
+   <line l="603"/>
+   <line l="476"/>
+   <line l="687"/>
+   <line l="606"/>
+   <line l="481"/>
+   <line l="636"/>
+   <line l="716"/>
+   <line l="601"/>
+   <line l="526"/>
+   <line l="649"/>
+   <line l="634"/>
+   <line l="677"/>
+   <line l="473"/>
+   <line l="519"/>
+   <line l="673"/>
+   <line l="713"/>
+   <line l="609"/>
+   <line l="694"/>
+   <line l="539"/>
+   <line l="555"/>
+   <line l="654"/>
+   <line l="667"/>
+   <line l="541"/>
+   <line l="655"/>
+   <line l="520"/>
+   <line l="480"/>
+   <line l="637"/>
+   <line l="688"/>
+   <line l="626"/>
+   <line l="503"/>
+   <line l="642"/>
+   <line l="575"/>
+   <line l="479"/>
+   <line l="566"/>
+   <line l="680"/>
+   <line l="488"/>
+   <line l="662"/>
+   <line l="690"/>
+   <line l="543"/>
+   <line l="714"/>
+   <line l="500"/>
+   <line l="501"/>
+   <line l="691"/>
+   <line l="484"/>
+   <line l="598"/>
+   <line l="584"/>
+   <line l="552"/>
+   <line l="560"/>
+   <line l="502"/>
+   <line l="614"/>
+   <line l="512"/>
+   <line l="581"/>
+   <line l="515"/>
+   <line l="692"/>
+   <line l="578"/>
+   <line l="588"/>
+   <line l="678"/>
+   <line l="509"/>
+   <line l="710"/>
+   <line l="648"/>
+   <line l="706"/>
+   <line l="676"/>
+   <line l="632"/>
+   <line l="545"/>
+   <line l="611"/>
+   <line l="563"/>
+   <line l="659"/>
+   <line l="709"/>
+   <line l="686"/>
+   <line l="576"/>
+   <line l="532"/>
+   <line l="661"/>
+   <line l="704"/>
+   <line l="597"/>
+   <line l="703"/>
+   <line l="664"/>
+   <line l="499"/>
+   <line l="631"/>
+   <line l="629"/>
+   <line l="607"/>
+   <line l="641"/>
+   <line l="523"/>
+   <line l="568"/>
+   <line l="577"/>
+   <line l="558"/>
+   <line l="696"/>
+   <line l="717"/>
+   <line l="527"/>
+   <line l="674"/>
+   <line l="671"/>
+   <line l="668"/>
+   <line l="530"/>
+   <line l="554"/>
+   <line l="613"/>
+   <line l="660"/>
+   <line l="594"/>
+   <line l="589"/>
+   <line l="544"/>
+   <line l="562"/>
+   <line l="585"/>
+   <line l="559"/>
+   <line l="590"/>
+   <line l="647"/>
+   <line l="513"/>
+   <line l="524"/>
+   <line l="653"/>
+   <line l="535"/>
+   <line l="697"/>
+   <line l="517"/>
+   <line l="618"/>
+   <line l="570"/>
+   <line l="693"/>
+   <line l="718"/>
+   <line l="528"/>
+   <line l="681"/>
+   <line l="707"/>
+   <line l="529"/>
+   <line l="587"/>
+   <line l="617"/>
+   <line l="485"/>
+   <line l="656"/>
+   <line l="494"/>
+   <line l="493"/>
+   <line l="663"/>
+   <line l="561"/>
+   <line l="638"/>
+   <line l="715"/>
+   <line l="471"/>
+   <line l="666"/>
+   <line l="610"/>
+   <line l="506"/>
+   <line l="679"/>
+   <line l="702"/>
+   <line l="547"/>
+   <line l="689"/>
+   <line l="573"/>
+   <line l="711"/>
+   <line l="624"/>
+   <line l="591"/>
+   <line l="536"/>
+   <line l="525"/>
+   <line l="540"/>
+   <line l="640"/>
+   <line l="670"/>
+   <line l="652"/>
+   <line l="651"/>
+   <line l="534"/>
+   <line l="511"/>
+   <line l="490"/>
+   <line l="595"/>
+   <line l="483"/>
+   <line l="514"/>
+   <line l="474"/>
+   <line l="551"/>
+   <line l="586"/>
+   <line l="569"/>
+   <line l="489"/>
+   <line l="633"/>
+   <line l="579"/>
+   <line l="622"/>
+   <line l="550"/>
+   <line l="605"/>
+   <line l="521"/>
+   <line l="698"/>
+   <line l="510"/>
+   <line l="553"/>
+   <line l="669"/>
+   <line l="695"/>
+   <line l="516"/>
+   <line l="645"/>
+   <line l="684"/>
+   <line l="705"/>
+   <line l="615"/>
+   <line l="477"/>
+   <line l="612"/>
+   <line l="593"/>
+   <line l="508"/>
+   <line l="582"/>
+   <line l="608"/>
+   <line l="627"/>
+  </lines>
+ </mapping>
+</allatori>
